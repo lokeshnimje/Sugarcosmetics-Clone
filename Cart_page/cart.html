@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./cart.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" href="https://cdn.shopify.com/s/files/1/0906/2558/files/Sugar_Logo_9182588f-0366-4812-9fc5-f3a4b639c044_32x.png?v=1597067859%22">
+    <script src="https://kit.fontawesome.com/f612f4d575.js" crossorigin="anonymous"></script>
+    <title>Your Shopping Cart - SUGAR COSMETICS</title>
+</head>
+<body>
+     <!-- Header Code starts here -->
+     <div class="Header">
+        <div class="Header__Logo">
+            <a href="/index.html"><img class="img" src="https://cdn.shopify.com/s/files/1/0906/2558/files/SUGAR-Festive-logo_ba6a68ab-b29e-4109-ab60-bc8132bb153b_600x.jpg?v=1609495364" alt="Sugar Cosmetics Logo"></a>
+        </div>
+        <div class="Header__Search">
+            <div><input id="searchItems" class="Header__Search__inputBox" type="text" placeholder="Search for products"></div>
+            <div class="Header__Search__searchicon"><i class="fas fa-search"></i></div>
+        </div>
+        <div class="Header__Login"> 
+            <a id="loginLink" class="Header__Login__P" href="../Login/login.html">Login / Register</a>
+        </div>
+        <div class="Header__LikeCart">
+            <div>
+                <a href="/wishlist/wishlist.html"><i class="far fa-heart"></i></a>
+                <div class="wishlist_active"></div>
+            </div>
+            <div>
+                <a href="/Cart_page/cart.html"><i class="fas fa-shopping-cart"></i></a>
+                <div class="cart_active"></div>
+            </div>
+        </div>
+    </div>
+    <div class="navBar">
+        <div class="dropdown">
+            <div class="dropbtn">MAKEUP <i class="fas fa-angle-down"></i></div>
+            <div class="navBar__content">
+                <div>
+                    <p>LIPS</p>
+                    <a href="">LIPSTICKS</a>
+                    <a href="">LIP CARE</a>
+                    <a href="">LIQUID LIP COLOURS</a>
+                    <a href="">LIP GLOSS & LINERS</a>
+                    <a href="">VALUE SETS</a>
+                    <a href="">GIFTING</a>
+                </div>
+                <div>
+                    <p>FACE</p>
+                    <a href="">PRIMERS</a>
+                    <a href="">FOUNDATION</a>
+                    <a href="">POWDER / COMPACT</a>
+                    <a href="">CONCEALERS & <br>CORRECTORS</a>
+                    <a href="">BLUSH</a>
+                    <a href="">HIGHLIGHTERS & <br>CONTOUR</a>
+                    <a href="">BRONZER</a>
+                    <a href="">FACE PALETTES</a>
+                    <a href="">VALUE SETS</a>
+                </div>
+                <div>
+                    <p>EYES</p>
+                    <a href="">EYELINERS</a>
+                    <a href="">KAJAL</a>
+                    <a href="">EYEBROWS</a>
+                    <a href="">EYESHADOWS</a>
+                    <a href="">MASCARA</a>
+                    <a href="">VALUE SETS</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="dropdown">
+            <div class="dropbtn">SKIN <i class="fas fa-angle-down"></i></div>
+            <div class="navBar__content" id="navBar__content1">
+                <div>
+                    <a href="">MOISTURIZERS</a>
+                    <a href="">MASKS</a>
+                    <a href="">SETTING MISTS</a>
+                    <a href="">MAKEUP REMOVER</a>
+                    <a href="">SKINCARE<br>COMBOS</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="dropdown">
+            <div class="dropbtn">BLOG <i class="fas fa-angle-down"></i></div>
+            <div class="navBar__content" id="navBar__content1">
+                <div>
+                    <a href="">FEATURED</a>
+                    <a href="">MAKEUP</a>
+                    <a href="">SKINCARE</a>
+                    <a href="">CARE</a>
+                    <a href="">QUIZ</a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="dropbtn">OFFERS</div>
+
+        <div class="dropdown">
+            <div class="dropbtn">TRENDING <i class="fas fa-angle-down"></i></div>
+            <div class="navBar__content" id="navBar__content1">
+                <div>
+                    <a href="">MINIS SET</a>
+                    <a href="">LIMITED EDITION</a>
+                    <a href="">NEW LAUNCHES</a>
+                    <a href="">VALUE SETS</a>
+                    <a href="">GIFTING</a>
+                </div>
+            </div>
+        </div>  
+    </div>
+    <!-- Header Code Ends here -->
+    <!-- Cart Page start here -->
+    <div class="container">
+        
+        <div class="title">
+            <h1>CART</h1>
+            <div class="address">
+                <a href="/index.html">
+                    <i class="fa fa-home" style="font-size: 15px;" aria-hidden="true"></i>
+                    Home
+                </a>
+                <p>/</p>
+                <p>Cart</p>
+            </div>
+        </div>
+        <div class="pink_offer">SHOP FOR <span style="color: black;">RS 4999/-</span> AND GET A METTLE LIPSTICK OR 
+            BRONZE POUCH + MIRROR WORTH UP TO RS 1198/-</div>  <!--offer Ads-->
+        <div class="total_box">
+            <h2>CART TOTAL</h2>     <!-- cart total section -->
+            <div class="total_amt_box">
+                <div class="sub_total">
+                    <h4>Subtotal:</h4>
+                    <div class="sub">
+                        <h4 style="font-weight: bold;">&#8377</h4>
+                        <h4 id="bill_amt">0.00</h4>
+                    </div>
+                </div>
+                <div class="sub_total">
+                    <h4>Tax(GST):</h4>
+                    <h4>18%</h4>
+                </div>
+                <div class="line"></div>
+                <div class="sub_total">
+                    <h2>TOTAL</h2>
+                    <div class="sub">
+                        <h2 style="font-weight: bold;">&#8377</h2>
+                        <h2 id="total_amt">0.00</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="free_ship" id="freeShip">CONGRATULATIONS! YOU'VE GOT FREE SHIPPING</div>  <!--free shipping info -->
+            <div class="offer" id="offer">SHOP ABOVE RS 1999 AND GET FREE SHIPPING</div>
+            <div class="checkout" id="checkout">CHECKOUT</div>  <!--checkout button -->
+        </div>
+        <!-- modal to show user details after checkout -->
+        <div class="modal-bg">
+            <div class="modal">
+                <div class="deliAddress">
+                    <div>
+                        <h5 style="color: grey;">Deliver to</h5>
+                        <h5 id="address"></h5>
+                        <!-- <h5>2nd Floor, 91springboard, Salarpuria Tower -1 No. 22, Koramangala Industrial Layout, Koramangala, Bengaluru, Karnataka 560095</h5> -->
+                    </div>
+                    <div>
+                        <h5 style="color: grey;">Phone:</h5>
+                        <h5 id="phone"></h5>
+                    </div>
+                    <div>
+                        <h5 style="color: grey">Delivery expected</h5>
+                        <h5 id="deliveryDate">Modnay</h5>
+                    </div>
+                </div>
+                <div class="modal_text">
+                    <select id="cust" onchange="SetSelectedValue()" >
+                        <option value="1">Select Payment Mode</option>
+                        <option value="DEBIT CARD">Debit Card</option>
+                        <option value="CREDIT CARD">Credit Card</option>
+                        <option value="NET BANKING">Net Banking</option>
+                        <option value="CASH ON DELIVERY">Cash On Delivery</option>
+                    </select>
+                    <button id="modal-btn">PAY NOW</button>
+                </div>
+                <a href="" style="font-size: 14px;">Click here for new registration</a>
+                <span class="modal-close">X</span>
+            </div>
+        </div>
+        <div class="modal-bg2">
+            <div class="modal">
+                <div id="loader">
+                    <h4 style="margin: 20px;">Please wait...</h4>
+                    <div class="loader"></div>
+                </div>
+                <div id="thank" class="thank">
+                    <h1 style="color: green;">Thank you for shopping with us! <img src="https://emoji.slack-edge.com/T01CBR70TN2/blob_excited/5d5d483e6784ad8a.gif" alt=""></h1>
+                    <div class="modal-thank">
+                        <h3>Your order is placed successfully!</h3>
+                        <div class="order_no">
+                            <h5>ORDER NO: #2361499443</h5>
+                            <h5 id="payment_mode_show"></h5>
+                        </div>
+                    </div>
+                    <button id="close">CLOSE</button>
+                </div>
+            </div>
+        </div>
+        <!-- Cart main container section to show added products detail with their price & quantity -->
+        <div class="displayData">
+            <div class="added_items">
+                <!-- show added products -->
+            </div>
+            <div class="empty-cart">
+                <!-- show empty cart  -->
+                <img src="https://www.omegafoods.in/images/emptycart2.jpg" alt="empty cart">
+                <h3>Your cart is empty</h3>
+            </div>
+        </div>
+    </div>
+    <!-- cart page ends here -->
+
+     <!-- Footer Code starts here -->
+     <div class="Footer">
+        <div class="Footer__Logo">
+            <img class="img" src="https://cdn.shopify.com/s/files/1/0906/2558/files/Sugr_logo_white-02_600x.png" alt="Sugar Cosmetics Logo">
+        </div>
+        <div class="iconBox">
+            <div class="icon"><i class="fa fa-facebook"></i></div>
+            <div class="icon"><i class="fa fa-twitter"></i></div>
+            <div class="icon"><i class="fa fa-envelope"></i></div>
+        </div>
+        <div class="Footer__Info">
+            <div id="info__1">
+                <strong>INFORMATION</strong>
+                <div class="dash"></div>
+                <p>Contact Us</p>
+                <p>Store Locator</p>
+                <p>Terms & conditions</p>
+                <p>Returns</p>
+                <p>FAQs</p>
+                <p>About Us</p>
+            </div>
+            <div>
+                <strong>CUSTOMER CARE</strong>
+                <div class="dash"></div>
+                <div class="mobileNum"><i class="fa fa-mobile-phone"></i><p>: 022-2847-5555</p></div>
+                <div class="mobileNum"><i class="fa fa-mobile-phone"></i><p>: 022-6805-6009</p></div>
+                <p id="dateTime">(Monday to Friday : 9 AM - 7 PM).</p>
+                <div class="mobileNum" id="spcaeTopBottom"><i class="fa fa-envelope-open-o"></i><p>: hello@sugarcosmetics.com</p></div>
+
+                <strong>INFLUENCER COLLAB</strong>
+                <div class="dash"></div>
+                <div class="mobileNum"><i class="fa fa-external-link"></i><p>: Join Us</p></div>
+
+                <strong>CAREER</strong>
+                <div class="dash"></div>
+                <div class="mobileNum"><i class="fa fa-envelope-open-o"></i><p>: careers@sugarcosmetics.com</p></div>
+
+                <strong>PRESS & MEDIA</strong>
+                <div class="dash"></div>
+                <div class="mobileNum"><i class="fa fa-envelope-open-o"></i><p>: pr@sugarcosmetics.com</p></div>
+            </div>
+
+            <div id="bannerGetApp">
+                <strong>GET THE NEW SUGAR APP<br>TODAY.</strong>
+                <div class="dash"></div>
+                <div class="mobileNum"><p>Tap into a better shopping<br>experience.</p></div>
+                <div class="glogoBanner">
+                    <div><img class="img" src="https://cdn.shopify.com/s/files/1/0906/2558/files/google-play.png?v=1580269780" alt="Google Playstore"></div>
+                    <div><img class="img" src="https://cdn.shopify.com/s/files/1/0906/2558/files/apple-store.png?v=1580269780" alt="Apple AppStore"></div>
+                </div>
+            </div>
+
+            <div id="newsLetter">
+                <strong>NEWSLETTER</strong>
+                <div class="dash"></div>
+                <div class="mobileNum" id="newsTextBox"><input class="newsText" type="text" placeholder="Your email address"></div>
+                <button class="signUpButton">SIGN UP</button>
+            </div>
+        </div>
+        <div class="dividePage"></div>
+        <div class="copyRight">
+            <p>Copyright © 2020 SUGAR Cosmetics. All rights reserved.</p>
+        </div>
+    </div>
+    <!-- Footer Code Ends here -->
+</div>
+    <script src="./cart.js"></script>
+</body>
+</html>

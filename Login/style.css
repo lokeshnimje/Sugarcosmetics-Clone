@@ -1,0 +1,680 @@
+/* ---------------------------------------------Header Code starts here----------------------------------------------- */
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0;
+    padding: 0%;
+    font-family: 'Poppins', sans-serif;
+}
+
+.img{
+    width: 100%;
+    height: 100%;
+}
+
+.Header{
+    display: flex;
+    width: 100%;
+    height: 85px;
+    border: 1px solid #DCDCDC;
+    border-right: none;
+    border-left: none;
+}
+
+.Header__Logo{
+    width: 15%;
+    height: 70%;
+    /* border: 1px solid black; */
+    margin-top: 0.9%;
+    margin-left: 2%;
+    cursor: pointer;
+}
+
+.Header__Search{
+    width: 48%;
+    height: 52%;
+    border: 2px solid #DCDCDC;
+    display: flex;
+    margin-top: 1.5%;
+    margin-left: 2%;
+}
+
+.Header__Search__inputBox{
+    width: 330%;
+    height: 85%;
+    margin-top: 1%;
+    margin-left: 5%;
+    border: none;
+    border-style: none;
+    font-size: 15px;
+    outline: none;
+}
+
+.Header__Search__searchicon{
+    height: 80%;
+    width: 7%;
+    margin-top: 0.2%;
+    color: rgb(94, 94, 94);
+    /* border: 1px solid black; */
+    margin-left: 65%;
+    font-size: 170%;
+    text-align: center;
+    cursor: pointer;
+}
+
+.Header__Login{
+    width: auto;
+    height: 50%;
+    /* border: 1px solid blue; */
+    font-size: 14px;
+    font-style: italic;
+    margin-top: 2.3%;
+    margin-left: 10%;
+    cursor: pointer;
+    color: #757575;
+}
+
+.Header__LikeCart{
+    display: flex;
+    width: 10%;
+    height: 50%;
+    margin-top: 1.8%;
+    margin-left: 1%;
+    /* border: 1px solid violet; */
+    cursor: pointer;
+}
+
+.Header__LikeCart>div{
+ width: 40%;
+ /* border: 1px solid blue; */
+ text-align: center;
+ font-size: 140%;
+}
+
+.Header__LikeCart>div>a>i{
+    margin-top: 13%;
+}
+
+.Header__LikeCart>div>a{
+    color: black;
+    text-decoration: none;
+}
+
+.Header__Login__P{
+    text-decoration: none;
+    color: black;
+}
+
+.Header__Login__P:hover{
+    text-decoration: underline;
+}
+
+.navBar{
+    width: 100%;
+    height: 40px;
+    /* border: 1px solid black; */
+    display: flex;
+}
+
+.navBar>div{
+    width: auto;
+    height: 70%;
+    margin-left: 1.5%;
+    /* border: 1px solid black; */
+    text-align: center;
+    margin-top: 0.5%;
+    cursor: pointer;
+}
+
+.navBar>div>i{
+    color: #757575;
+}
+
+.dropbtn{
+    font-weight: bold;
+}
+
+.dropbtn:hover{
+    color: #FC2779;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.navBar__content{
+    display: none;
+    position: absolute;
+    width: 700px;
+    border: 1px solid #DCDCDC;
+    background-color: white;
+    z-index: 1;
+}
+  
+.navBar__content>div>a{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.navBar__content>div>a:hover{
+    color: #ff619e;
+    /* font-size: 18px; */
+    transform:translateX(12px);
+    transition-duration: 0.3s;
+}
+
+.navBar__content>div{
+    margin-left: 5%;
+}
+
+.navBar__content>div>p{
+    font-weight: bold;
+    text-align: left;
+}
+
+.navBar__content>div>p:hover{
+    color: #ff619e;
+}
+
+.dropdown:hover .navBar__content {display: block; display: flex;}
+
+#navBar__content1{
+    width: 200px;
+}
+
+/* ---------------------------------------------Header Code Ends here----------------------------------------------- */
+
+
+/* -------------------------------------------- Login Container Starts here ------------------------------------------- */
+
+.hideItems {
+    display: none;
+}
+
+.title{
+    text-align: center;
+    color: white;
+    background-color: #212121;
+    padding: 8px;
+}
+
+.title h1 {
+    margin: 10px;
+}
+
+
+.address {
+    display: flex;
+    width: fit-content;
+    margin: 1px auto;
+}
+.address a, p{
+    text-decoration: none;
+    color: white;
+    font-size: 13px;
+    margin: 0px 5px ;
+}
+.address a:hover{
+    text-decoration: underline;
+}
+
+.loginContainer {
+    height: fit-content;
+    display: flex;
+    margin: 70px 0px;
+}
+
+.loginContainerLeft {
+    width: 35%;
+    height: fit-content;
+    margin: 2% 5% ;
+    margin-left: 10%;
+    margin-right: 0px;
+    padding-right: 5%;
+    padding-bottom: 100px;
+}
+
+.loginContainerRight {
+    width: 40%;
+    height: 500px;
+    margin: 2% 5% ;
+    margin-left: 0px;
+    padding-bottom: 100px;
+    display: flex;
+    text-align: center;
+    border-left: 1px solid lightgray;
+    flex-direction: column;
+    color: black;
+}
+
+.loginTextDiv {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.loginTextDiv img {
+    width: 30px;
+    margin-right: 10px;
+}
+
+.loginTextDiv p {
+    font-size: 40px;
+    color: black;
+}
+
+.createTextDiv {
+    text-align: center;
+    color: black;
+    justify-content: center;
+    font-size: 40px;
+}
+
+.createTitle {
+    font-size: 40px;
+    color: black;
+}
+
+.createText {
+    color: rgb(77, 77, 77);
+    margin: 15px 50px;
+    line-height: 30px;
+    font-size: 20px;
+    font-weight: 200;
+}
+
+.sidebarFBDiv {
+    width: 100%;
+    height: 50px;
+    background-color: #2C82C9;
+    margin: 3px 0px;
+    color: white;
+    display: flex;
+}
+
+.fbDivLeft, .googleDivLeft {
+    width: 15%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fbDivRight, .googleDivRight {
+    width: 85%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sidebarGoogleDiv {
+    width: 100%;
+    height: 50px;
+    background-color: #e74c3c;
+    margin: 5px 0px;
+    color: white;
+    display: flex;
+}
+
+.sidebarFBDiv:hover {
+    background-color:#4c8fc5;
+    cursor: pointer;
+}
+
+.sidebarGoogleDiv:hover {
+    background-color: #e76c5f;
+    cursor: pointer;
+}
+
+.loginOr {
+    font-size: 20px;
+    text-align: center;
+    margin: 25px;
+    color: black;
+}
+
+.loginInput {
+    width: 99%;
+    height: 38px;
+    border: 1px solid lightgray;
+    margin-top: 5px;
+    margin-bottom: 25px;
+}
+
+.inputLabel {
+    color:rgb(22, 22, 22);
+}
+.forgotPassDiv {
+    display: flex;
+    align-items: center;
+    color: black;
+    margin-bottom: 20px;
+}
+
+.forgotPassDiv p {
+    color: black;
+}
+
+.forgotPassDiv p:hover {
+    color: crimson;
+    cursor: pointer;
+}
+
+.forgotPassDiv:hover {
+    color: crimson;
+    cursor: pointer;
+}
+
+.forgotRing {
+    margin-right: 10px;
+}
+
+.loginBtn {
+    width: 100%;
+    background-color: transparent;
+    border: 3px solid black;
+    padding: 10px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.createBtn {
+    margin-top: 25px;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.loginBtn:hover, .createBtn:hover {
+    background-color: rgb(44, 44, 44);
+    color: white;
+    cursor: pointer;
+    border: 2px solid rgb(44, 44, 44);
+}
+
+.redStar {
+    color: red;
+    margin-left: 5px;
+}
+
+/* -------------------------------------------- Login Container Ends here ------------------------------------------- */
+
+/* ---------------------------------------------Footer Code Starts here----------------------------------------------- */
+
+.Footer{
+    width: 100%;
+    height: auto;
+    background-color: black;
+    border: 1px solid black;
+    border-left: none;
+    border-right: none;
+    margin-top: 5%;
+
+}
+
+.Footer__Logo, .iconBox{
+    width: 10%;
+    height: 140px;
+    /* border: 1px solid white; */
+    margin: auto;
+    margin-top: 5%;
+}
+
+.iconBox{
+    margin-top: 0%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.icon>i{
+    color: whitesmoke;
+    cursor: pointer;
+}
+
+.Footer__Info{
+    color: white;
+    /* border: 1px solid white; */
+    width: 95%;
+    height: auto;
+    margin-left: 2%;
+    margin-top: 3%;
+    display: flex;
+}
+
+.Footer__Info>div{
+    margin-right: 2%;
+    /* border: 1px solid white; */
+    width: auto;
+}
+
+.Footer__Info>div>strong{
+    letter-spacing: 2px;
+}
+
+.Footer__Info>div>p{
+    color: rgb(124, 124, 124);
+    line-height: 18px;
+}
+
+.Footer__Info>div>p:hover, .mobileNum>p:hover{
+    color: white;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#info__1{
+    width: 32%;
+    margin-left: 5%;
+    /* margin-right: 5%; */
+}
+
+.dash{
+    width: 15%;
+    height: 3px;
+    background-color: white;
+    margin-bottom: 35px;
+}
+
+.mobileNum{
+    display: flex;
+    width: 300px;
+}
+
+/* .mobileNum>i, .mobileNum>p{
+    border: 1px solid white;
+} */
+
+.mobileNum>i{
+    height: 25px;
+    width: 10%;
+    font-size: 22px;
+}
+
+.mobileNum>p{
+    margin-top: 1px;
+    margin-left: 1%;
+    font-size: 15px;
+    color: rgb(124, 124, 124);
+}
+
+#dateTime{
+    margin-top: 0%;
+    color: white;
+    text-decoration: none;
+    cursor:text;
+    font-size: 15px;
+}
+
+#spcaeTopBottom{
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.glogoBanner{
+    display: flex;
+    width: 75%;
+    height: 30px;
+    /* border: 1px solid white; */
+}
+
+.glogoBanner>div{
+    width: 42%;
+    height: 100%;
+    margin-left: 2%;
+    cursor: pointer;
+}
+
+#bannerGetApp{
+    width: 30%;
+}
+
+#newsLetter{
+    /* border: 1px solid white; */
+    width: 40%;
+    height: 200px;
+}
+
+#newsTextBox{
+    border: 2px solid white;
+    width: 80%;
+    height: 18%;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+}
+
+.newsText{
+    width: 100%;
+    background-color: inherit;
+    border: none;
+    outline: none;
+    color: rgb(124, 124, 124);
+}
+
+.signUpButton{
+    padding: 10px;
+    margin-top: 2%;
+    width: 50%;
+    border: none;
+    outline: none;
+    background-color: #FC2779;
+    cursor: pointer;
+    color: white;
+}
+
+.signUpButton:hover{
+    background-color: #ff0062;
+}
+
+.dividePage{
+    width: 82%;
+    height: 1px;
+    background-color: grey;
+    margin: auto;
+    margin-top: 5%;
+}
+
+.copyRight{
+    width: 50%;
+    height: 40px;
+    /* border: 1px solid white; */
+    margin: auto;
+    margin-top: 3%;
+    color: white;
+    text-align: center;
+    margin-bottom: 1%;
+}
+
+/* ---------------------------------------------Footer Code Ends here----------------------------------------------- */
+
+.afterlogin{
+    position: absolute;
+    display:flex;
+    flex-direction: row;
+    color:gray;
+    width:80%;
+    justify-content: space-between;
+    margin:-810px 0px 5px 150px;
+    /* border:1px solid gray; */
+    /* display:none; */
+    /* display:none; */
+
+}
+.left{
+    width: 30%;
+    height:200px;
+    /* border:1px solid gray; */
+    color :black;
+    margin:5px;
+    
+}
+.profile{
+    color:black
+}
+.profile1{
+    height:40px;
+    /* background-color: rgb(226, 226, 226); */
+    margin:0px;
+    border:1px solid rgb(224, 223, 223)
+}
+.right{
+    /* border:1px solid gray; */
+    width:65%;
+    /* font-size: x-large; */
+}
+.top{
+    background-color: rgb(226, 226, 226);
+    color:black;
+    margin:5px 0px;
+    height:40px;
+    align-items: center;
+    /* border:1px solid black */
+}
+.acc{
+    background-color: rgb(226, 226, 226);
+    color:black;
+    margin:5px 0px;
+    height:40px;
+
+}
+.inr{
+    color:black;
+    margin:10px 0px
+}
+.top > p{
+    color:black;
+    margin:10px 0px
+}
+.p1{
+    color:black;
+    margin:10px
+}
+.p2{
+    color:black;
+    margin:10px
+}
+.p3{
+    color:black;
+    margin:10px
+}
+.acc > p{
+    margin:10px;
+}
+.names,.mail{
+    border-bottom: 1px solid gray;
+    height:40px
+}
+
+
+
+

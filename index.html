@@ -1,0 +1,701 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/f612f4d575.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="icon" href="https://cdn.shopify.com/s/files/1/0906/2558/files/Sugar_Logo_9182588f-0366-4812-9fc5-f3a4b639c044_32x.png?v=1597067859%22">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/Header&Footer/H&F.css">
+    <title>SUGAR Cosmetics India - Iconic Makeup & Beauty Products for the Unstopable you</title>
+</head>
+<body>
+    <div id="goToTop" class="autoPageUp hideItem" onclick="goToTop()">
+        <a href="#"><i class="fas fa-chevron-up"></i></a>
+    </div>
+    <div class="mainContainer">
+    <div id="mainContainer" class="mainContainer">
+        <!-- Login Code Starts here -->
+        <div id="shadow" class="hideSide"></div>
+        <div id="loginSidebar" class="hideSide">
+            <div class="sidebarTop">
+                    <div class="sidebarTopLeft">
+                        <p class="sidebarTitle">SIGN IN</p>
+                    </div>
+                    <button id="sideClose" class="sidebarTopRight">Hide X</button>
+            </div>
+            <div id="loginSide" class="hideSide">
+                <div class="sidebarFBDiv">
+                    <div class="fbDivLeft">
+                        <i class="fab fa-lg fa-facebook-f"></i>
+                    </div>
+                    <div class="fbDivRight">
+                        <p>Use Facebook</p>
+                    </div>
+                </div>
+                <div class="sidebarGoogleDiv">
+                    <div class="googleDivLeft">
+                        <i class="fab fa-lg fa-google"></i>
+                    </div>
+                    <div class="googleDivRight">
+                        <p>Use Google</p>
+                    </div>
+                </div>
+                <div>
+                    <p class="loginOr">--------- Or ---------</p>
+                </div>
+                <div>
+                    <div class="flex">
+                        <label class="inputLabel" for="email">Email address</label>
+                        <label class="inputLabel redStar" for="email"> *</label>
+                    </div>
+                    <input id="loginEmail" class="loginInput" type="text">
+                    <div class="flex">
+                        <label class="inputLabel" for="password">Password</label>
+                        <label class="inputLabel redStar" for="password">*</label>
+                    </div>
+                    <input id="loginPassword" class="loginInput" type="password">
+                </div>
+                <div class="forgotPassDiv">
+                    <i class="far forgotRing fa-life-ring"></i>
+                    <p>Lost Your Password ?</p>
+                </div>
+                <button id="userLoginBtn" class="loginBtn">LOGIN</button>
+                <div class="loginLastDiv">
+                    <img class="loginUserIcon" src="https://www.flaticon.com/svg/vstatic/svg/126/126486.svg?token=exp=1612352577~hmac=ec3054dc829617abe794c87c804876d2" alt="">
+                    <p>No account yet ?</p>
+                    <p>Registering for this site allows you to access 
+                        your order status and history. Just fill in 
+                        the fields below, and we'll get a new account 
+                        set up for you in no time. We will only ask you 
+                        for information necessary to make the purchase 
+                        process faster and easy</p>
+                    <p id="createAcc" class="createACLink">Create An Account</p>
+                </div>
+            </div>
+            
+             <div id="registerSide" class="hideSide">
+                <div>
+                    <div class="flex">
+                        <label class="inputLabel" for="Name">Name</label>
+                        <label class="inputLabel redStar" for="email"> *</label>
+                    </div>
+                    <input id="getName" class="loginInput" type="text">
+                    <div class="flex">
+                        <label class="inputLabel" for="email">Email address</label>
+                        <label class="inputLabel redStar" for="email"> *</label>
+                    </div>
+                    <input id="getEmail" class="loginInput" type="text">
+
+                    <div class="flex">
+                        <label class="inputLabel" for="phoneNumber">Contact Number</label>
+                    </div>
+                    <input id="getNumber" class="loginInput" type="text">
+                    <div class="flex">
+                        <label class="inputLabel" for="address">Address</label>
+                    </div>
+                    <input id="getAddress" class="loginInput" type="text">
+    
+                    <div class="flex">
+                        <label class="inputLabel" for="password">Password</label>
+                        <label class="inputLabel redStar" for="password">*</label>
+                    </div>
+                    <input id="getPassword" class="loginInput" type="text">
+                </div>
+                <button id="registerBtn" class="registerBtn">Register</button>
+                <div class="loginLastDiv">
+                    <img class="loginUserIcon" src="https://www.flaticon.com/svg/vstatic/svg/126/126486.svg?token=exp=1612352577~hmac=ec3054dc829617abe794c87c804876d2" alt="">
+                    <p>No account yet ?</p>
+                    <p>Registering for this site allows you to access 
+                        your order status and history. Just fill in 
+                        the fields below, and we'll get a new account 
+                        set up for you in no time. We will only ask you 
+                        for information necessary to make the purchase 
+                        process faster and easy</p>
+                    <p id="createLogin" class="createACLink">Login</p>
+                </div>
+             </div>
+        </div>
+        <!-- Login Code Ends here -->
+
+        <!-- ChatBot Code Starts here -->
+        <div class="chatContainer">
+            <div id="chatDiv" class="chatDiv">
+                <div class="chatIcon">
+                    <div class="chatLine1"></div>
+                    <div class="chatLine2"></div>
+                </div>
+            </div>
+            <div id="chatPopup" class="hideItem">
+                <div id="closeBtn" class="closeBtn">X</div>
+                <div class="popupTop">
+                    <img src="https://fc-use1-00-pics-bkt-00.s3.amazonaws.com/9f5d5932d5b17aee1fe9491c9fdbdcb6c8c6945a655acc958ecd81a867ec7ef4/f_marketingpicFull/u_be1d8877d49e57a14b5be6e9cfc109a6d91d88702e89141f6559bdf9c348b663/img_1606274880058.png" alt="icon image">
+                    <p class="crewTag">SUGAR Crew</p>
+                    <p>currently replying in under 1 minute</p>
+                </div>
+                <div class="popupMid">
+                    <div class="popupMidTop">
+                        <img src="https://fc-use1-00-pics-bkt-00.s3.amazonaws.com/9f5d5932d5b17aee1fe9491c9fdbdcb6c8c6945a655acc958ecd81a867ec7ef4/f_hlimage/u_be1d8877d49e57a14b5be6e9cfc109a6d91d88702e89141f6559bdf9c348b663/img_1542177072720.jpeg">
+                        <div class="chatBotNameDiv">
+                            <p class="botName">Gryffindor</p>
+                            <div class="botTag">
+                                <img src="https://assetscdn-wchat.freshchat.com/static/assets/images/briefcase-regular-22e176d7e55374896af42b92904bb769.svg" alt="briefcase Image">
+                                <p class="compTag">Drive into the world of SUGAR</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="chatBox" class="popupMidDown"></div>
+                </div>
+                <div class="popupDown">
+                    <form id="chatInput" class="js-form">
+                        <input class="userInput" autocomplete="off" id="reply" type="text" name="myText" placeholder="Reply here...">
+                    </form>
+                </div>
+            </div>
+        </div>
+        <!-- ChatBot Code Ends here -->
+
+        <!-- Header Code starts here -->
+        <div id="headerForLargeScreen">
+            <div class="Header">
+                <div class="Header__Logo">
+                    <a href="#"><img class="img" src="https://cdn.shopify.com/s/files/1/0906/2558/files/SUGAR-Festive-logo_ba6a68ab-b29e-4109-ab60-bc8132bb153b_600x.jpg?v=1609495364" alt="Sugar Cosmetics Logo"></a>
+                </div>
+                <div class="Header__Search">
+                    <div><input id="searchItems" class="Header__Search__inputBox" type="text" placeholder="Search for products"></div>
+                    <div class="Header__Search__searchicon"><i class="fas fa-search"></i></div>
+                </div>
+                <div class="Header__Login"> 
+                    <a id="loginLink" class="Header__Login__P">Login / Register</a>
+                </div>
+                <div class="Header__LikeCart">
+                    <div>
+                        <a href="/wishlist/wishlist.html"><i class="far fa-heart"></i></a>
+                        <div class="wishlist_active"></div>
+                    </div>
+                    <div>
+                        <a href="/Cart_page/cart.html"><i class="fas fa-shopping-cart"></i></a>
+                        <div class="cart_active"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="navBar">
+                <div class="dropdown">
+                    <div class="dropbtn">MAKEUP <i class="fas fa-angle-down"></i></div>
+                    <div class="navBar__content">
+                        <div>
+                            <p>LIPS</p>
+                            <a href="/Products/lips.html">LIPSTICKS</a>
+                            <a href="/Products/lips.html">LIP CARE</a>
+                            <a href="/Products/lips.html">LIQUID LIP COLOURS</a>
+                            <a href="/Products/lips.html">LIP GLOSS & LINERS</a>
+                            <a href="/Products/lips.html">VALUE SETS</a>
+                            <a href="/Products/lips.html">GIFTING</a>
+                        </div>
+                        <div>
+                            <p>FACE</p>
+                            <a href="/Products/face.html">PRIMERS</a>
+                            <a href="/Products/face.html">FOUNDATION</a>
+                            <a href="/Products/face.html">POWDER / COMPACT</a>
+                            <a href="/Products/face.html">CONCEALERS & <br>CORRECTORS</a>
+                            <a href="/Products/face.html">BLUSH</a>
+                            <a href="/Products/face.html">HIGHLIGHTERS & <br>CONTOUR</a>
+                            <a href="/Products/face.html">BRONZER</a>
+                            <a href="/Products/face.html">FACE PALETTES</a>
+                            <a href="/Products/face.html">VALUE SETS</a>
+                        </div>
+                        <div>
+                            <p>EYES</p>
+                            <a href="/Products/eye.html">EYELINERS</a>
+                            <a href="/Products/eye.html">KAJAL</a>
+                            <a href="/Products/eye.html">EYEBROWS</a>
+                            <a href="/Products/eye.html">EYESHADOWS</a>
+                            <a href="/Products/eye.html">MASCARA</a>
+                            <a href="/Products/eye.html">VALUE SETS</a>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="dropdown">
+                    <div class="dropbtn">SKIN <i class="fas fa-angle-down"></i></div>
+                    <div class="navBar__content" id="navBar__content1">
+                        <div>
+                            <a href="">MOISTURIZERS</a>
+                            <a href="">MASKS</a>
+                            <a href="">SETTING MISTS</a>
+                            <a href="">MAKEUP REMOVER</a>
+                            <a href="">SKINCARE<br>COMBOS</a>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="dropdown">
+                    <div class="dropbtn">BLOG <i class="fas fa-angle-down"></i></div>
+                    <div class="navBar__content" id="navBar__content1">
+                        <div>
+                            <a href="">FEATURED</a>
+                            <a href="">MAKEUP</a>
+                            <a href="">SKINCARE</a>
+                            <a href="">CARE</a>
+                            <a href="">QUIZ</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="dropbtn">OFFERS</div>
+    
+                <div class="dropdown">
+                    <div class="dropbtn">TRENDING <i class="fas fa-angle-down"></i></div>
+                    <div class="navBar__content" id="navBar__content1">
+                        <div>
+                            <a href="">MINIS SET</a>
+                            <a href="">LIMITED EDITION</a>
+                            <a href="">NEW LAUNCHES</a>
+                            <a href="">VALUE SETS</a>
+                            <a href="">GIFTING</a>
+                        </div>
+                    </div>
+                </div>  
+            </div>
+        </div>
+        <!-- code for small screen -->
+        <div id="headerForSmallScreen">
+            <div id="barIcon"  class="headerBarDiv">
+                <i class="fas fa-bars"></i>
+            </div>
+            <div onclick="openHomePage()"  class="headerLogoDiv">
+                <img src="https://cdn.shopify.com/s/files/1/0906/2558/files/SUGAR-Festive-logo_07df2bb3-935e-4fa4-a77f-28aaf46b663d_600x@2x.jpg?v=1609495379" alt="">
+            </div>
+            <div class="headerIcons">
+                <i onclick="openCartPage()" class="fas fa-shopping-cart"></i>
+                <i onclick="openAccountPage()" class="far fa-user"></i>
+            </div>
+        </div>
+
+        <div id="menuForSmallScreen" class="hideItem"  >
+            <div >
+                <div class="menuSearchDiv">
+                    <div><input class="" type="text" placeholder="Search for products"></div>
+                    <div class=""><i class="fas fa-lg fa-search"></i></div>
+                </div>
+                <div class="menuOptionDiv makeupDiv">
+                    <div class="menuTextDiv">
+                        <p class="menuText">MAKEUP</p>
+                    </div>
+                    <div id="makeUpDrop" class="menuDrop" onclick="changeIconMakeUp()" >
+                        <i class="fas fa-lg fa-angle-down"></i>
+                    </div>
+                    <div id="makeUpClose" class="hideItem" onclick="closeIconMakeUp()" >
+                        <i class="fas  fa-times"></i>
+                    </div>
+                </div>
+                <div id="makeUpOptions" class="hideItem">
+                    <div class="menuOptionDiv menuSubOptionDiv">
+                        <div id="lipPage" class="menuTextDiv">
+                            <p class="menuText menuSubText">LIPS</p>
+                        </div>
+                    </div>
+                    <div class="menuOptionDiv menuSubOptionDiv">
+                        <div id="facePage" class="menuTextDiv">
+                            <p class="menuText menuSubText">FACE</p>
+                        </div>
+                    </div>
+                    <div class="menuOptionDiv menuSubOptionDiv">
+                        <div id="eyePage" class="menuTextDiv ">
+                            <p class="menuText menuSubText">EYES</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="menuOptionDiv">
+                    <div class="menuTextDiv">
+                        <p class="menuText">SKIN</p>
+                    </div>
+                    <div id="skinDrop" class="menuDrop" onclick="changeIconSkin()" >
+                        <i class="fas fa-lg fa-angle-down"></i>
+                    </div>
+                    <div id="skinClose" class="hideItem" onclick="closeIconSkin()" >
+                        <i class="fas  fa-times"></i>
+                    </div>
+                </div>
+                <div id="skinOptions" class="hideItem">
+                    <div class="menuOptionDiv menuSubOptionDiv">
+                        <div onclick="openHomePage()" class="menuTextDiv">
+                            <p class="menuText menuSubText">MOISTURIZERS</p>
+                        </div>
+                    </div>
+                    <div class="menuOptionDiv menuSubOptionDiv">
+                        <div onclick="openHomePage()"  class="menuTextDiv">
+                            <p class="menuText menuSubText">MASKS</p>
+                        </div>
+                    </div>
+                    <div class="menuOptionDiv menuSubOptionDiv">
+                        <div onclick="openHomePage()"  class="menuTextDiv">
+                            <p class="menuText menuSubText">SETTING MISTS</p>
+                        </div>
+                    </div>
+                    <div class="menuOptionDiv menuSubOptionDiv">
+                        <div onclick="openHomePage()"  class="menuTextDiv">
+                            <p class="menuText menuSubText">MAKEUP REMOVER</p>
+                        </div>
+                    </div>
+                    <div class="menuOptionDiv menuSubOptionDiv">
+                        <div onclick="openHomePage()"  class="menuTextDiv">
+                            <p class="menuText menuSubText">SKINCARE COMBOS</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="menuOptionDiv">
+                    <div class="menuTextDiv">
+                        <p class="menuText">BLOG</p>
+                    </div>
+                    <div id="blogDrop" class="menuDrop" onclick="changeIconBlog()" >
+                        <i class="fas fa-lg fa-angle-down"></i>
+                    </div>
+                    <div id="blogClose" class="hideItem" onclick="closeIconBlog()" >
+                        <i class="fas  fa-times"></i>
+                    </div>
+                </div>
+                <div  id="blogOptions" class="hideItem">
+                    <div class="menuOptionDiv menuSubOptionDiv">
+                        <div onclick="openHomePage()"  class="menuTextDiv">
+                            <p class="menuText menuSubText">FEATURED</p>
+                        </div>
+                    </div>
+                    <div class="menuOptionDiv menuSubOptionDiv">
+                        <div onclick="openHomePage()"  class="menuTextDiv">
+                            <p class="menuText menuSubText">SKINCARE</p>
+                        </div>
+                    </div>
+                    <div class="menuOptionDiv menuSubOptionDiv">
+                        <div onclick="openHomePage()"  class="menuTextDiv">
+                            <p class="menuText menuSubText">CARE</p>
+                        </div>
+                    </div>
+                    <div class="menuOptionDiv menuSubOptionDiv">
+                        <div onclick="openHomePage()"  class="menuTextDiv">
+                            <p class="menuText">QUIZ</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="menuOptionDiv">
+                    <div onclick="openHomePage()"  class="menuTextDiv">
+                        <p class="menuText">OFFERS</p>
+                    </div>
+                </div>
+                <div class="menuOptionDiv">
+                    <div onclick="openHomePage()"  class="menuTextDiv">
+                        <p class="menuText">TREANDING</p>
+                    </div>
+                    <div id="trendingDrop" class="menuDrop" onclick="changeIconTrending()" >
+                        <i class="fas fa-lg fa-angle-down"></i>
+                    </div>
+                    <div id="trendingClose" class="hideItem" onclick="closeIconTrending()" >
+                        <i class="fas  fa-times"></i>
+                    </div>
+                </div>
+                <div  id="trendingOptions" class="hideItem">
+                    <div class="menuOptionDiv menuSubOptionDiv">
+                        <div onclick="openHomePage()"  class="menuTextDiv">
+                            <p class="menuText menuSubText">MINIS SET</p>
+                        </div>
+                    </div>
+                    <div class="menuOptionDiv menuSubOptionDiv">
+                        <div onclick="openHomePage()"  class="menuTextDiv">
+                            <p class="menuText menuSubText">LIMITED EDITION</p>
+                        </div>
+                    </div>
+                    <div class="menuOptionDiv menuSubOptionDiv">
+                        <div onclick="openHomePage()"  class="menuTextDiv">
+                            <p class="menuText menuSubText">NEW LAUNCHES</p>
+                        </div>
+                    </div>
+                    <div class="menuOptionDiv menuSubOptionDiv">
+                        <div onclick="openHomePage()"  class="menuTextDiv">
+                            <p class="menuText menuSubText">VALUE SETS</p>
+                        </div>
+                    </div>
+                    <div class="menuOptionDiv menuSubOptionDiv">
+                        <div onclick="openHomePage()"  class="menuTextDiv">
+                            <p class="menuText menuSubText">GIFTING</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="menuOptionDiv">
+                    <div onclick="openAccountPage()"  class="menuTextDiv">
+                        <p class="menuText">MY ACCOUNT</p>
+                    </div>
+                   
+                </div>
+                <div class="menuOptionDiv">
+                    <div onclick="openHomePage()"  class="menuTextDiv">
+                        <p class="menuText">LOGOUT</p>
+                    </div>
+                   
+                </div>
+            </div>
+            
+        </div>
+        <!-- Header Code Ends here -->
+
+        <!-- Landing Page Code starts here -->
+        <div id="midDisplay">
+            <div class="slideshow__container">
+            <!-- header top banner with gif -->
+                <div class="mySlides fade">
+                    <img class="img" src="https://cdn.shopify.com/s/files/1/0906/2558/files/Triple-Treat-HP-Web_1a5d9351-390c-4b35-a8fd-9aa59ff06108.gif">
+                </div>
+    
+                <div class="mySlides fade">
+                    <img class="img" src="/Header&Footer/img/bannerTop2.PNG">
+                </div>
+    
+                <div class="mySlides fade">
+                    <img class="img" src="/Header&Footer/img/bannerTop3.PNG">
+                </div>
+    
+                <div class="mySlides fade">
+                    <img class="img" src="/Header&Footer/img/bannerTop4.PNG">
+                </div>
+    
+                <div class="mySlides fade">
+                    <img class="img" src="/Header&Footer/img/bannerTop5.PNG">
+                </div>
+                <br>
+                <div style="text-align:center">
+                  <span class="dot" onclick="currentSlide(1)"></span> 
+                  <span class="dot" onclick="currentSlide(2)"></span> 
+                  <span class="dot" onclick="currentSlide(3)"></span> 
+                  <span class="dot" onclick="currentSlide(4)"></span>
+                  <span class="dot" onclick="currentSlide(5)"></span> 
+                </div>
+            </div>
+           <!-- featured collections -->
+            <div class="display__Featured">
+                <p>FEATURED COLLECTION</p>
+                <div class="lineX">
+                    <div></div>
+                    <div>x</div>
+                    <div></div>
+                </div>
+                <div class="display__Featured__page">
+                    <button id="prevBtn"><i class="fas fa-chevron-left"></i></button>
+                    <div id="diaplayFData">
+                        <!-- display featured products -->
+                    </div>
+                    <button id="nextBtn"><i class="fas fa-chevron-right"></i></button>
+                </div>            
+            </div>
+
+            <div id="display__Adds"></div> 
+
+            <div class="display__Clearance">
+                <p>CLEARANCE</p>
+                <div class="lineXClear">
+                    <div></div>
+                    <div>x</div>
+                    <div></div>
+                </div>
+                <div id="display__Clearance__page">  
+                    <div class="clear__Cards">
+                        <!-- display clearance products -->
+                        <img class="img" src="${}" alt="">
+                    </div>  
+                </div>            
+            </div>
+
+            <div class="display__Featured">
+                <p>JUST IN</p>
+                <div class="lineXIn">
+                    <div></div>
+                    <div>x</div>
+                    <div></div>
+                </div>
+                <div class="display__JustIn__page">
+                    <button id="prevBtnIn"><i class="fas fa-chevron-left"></i></button>
+                    <div id="diaplayJustInData">
+                        <!-- display just in products -->
+                    </div>
+                    <button id="nextBtnIn"><i class="fas fa-chevron-right"></i></button>
+                </div>            
+            </div>
+
+            <div class="diaplay__DaySpecial">
+                <p>VALENTINE'S DAY MAKEUP LOOKS</p>
+                <div class="lineX">
+                    <div></div>
+                    <div>x</div>
+                    <div></div>
+                </div>
+                <div class="slideshow_containerDS">
+                    <div class="mySlidesDS fadeDS">
+                      <img src="https://cdn.shopify.com/s/files/1/0906/2558/files/Get-the-look-_1920x453_-heartbreaker_71f13d2e-14e5-4040-8015-fd3c2a05c8d6.jpg" style="width:100%">
+                    </div>
+                    
+                    <div class="mySlidesDS fadeDS">
+                      <img src="https://cdn.shopify.com/s/files/1/0906/2558/files/Get-the-look-_1920x453_-Passionate-pink_cade15c1-d217-477e-a076-b89318cdc1b6.jpg" style="width:100%">
+                    </div>
+                    
+                    <div class="mySlidesDS fadeDS">
+                      <img src="https://cdn.shopify.com/s/files/1/0906/2558/files/Get-the-look-_1920x453_-2-gold-digger.jpg" style="width:100%">
+                    </div>
+                    <br> 
+                    <div style="text-align:center">
+                      <span class="dotDS" onclick="currentSlideDS(1)"></span> 
+                      <span class="dotDS" onclick="currentSlideDS(2)"></span> 
+                      <span class="dotDS" onclick="currentSlideDS(3)"></span> 
+                    </div>
+                  </div>
+            </div>
+
+            <div class="display__Skincare">
+                <p>SKINCARE BASICS</p>
+                <div class="lineXIn">
+                    <div></div>
+                    <div>x</div>
+                    <div></div>
+                </div>
+                <div class="display__Skincare__page">
+                    <button id="prevBtnInSc"><i class="fas fa-chevron-left"></i></button>
+                    <div id="diaplaySkincareData"></div>
+                    <button id="nextBtnInSc"><i class="fas fa-chevron-right"></i></button>
+                </div>
+            </div>
+            
+            <div class="display__BestOfYear">
+                <p>2020- YEAR IN REVIEW</p>
+                <div class="lineXIn">
+                    <div></div>
+                    <div>x</div>
+                    <div></div>
+                </div>
+                <div id="displayBestYearBanner">
+                    <img class="img" src="https://cdn.shopify.com/s/files/1/0906/2558/files/YIR_hp_d382eade-af6d-4384-8b01-fe54ea934e6a.jpg" alt="Best Of Year">
+                </div>
+            </div>
+
+            <div class="display__BestOfYear">
+                <p>TIPS AND TRICKS</p>
+                <div class="displayTips">
+                    <div>
+                        <img class="img" src="https://cdn.shopify.com/s/files/1/0906/2558/files/SUGAR_Sheet_masks_for_hydrated_skin.jpg" alt="Tips">
+                    </div>
+                    <div>
+                        <img class="img" src="https://cdn.shopify.com/s/files/1/0906/2558/files/Tips-_-Tricks-1st-tile-banner.jpg" alt="Tips">
+                    </div>
+                    <div>
+                        <img class="img" src="https://cdn.shopify.com/s/files/1/0906/2558/files/Tips_Tricks.jpg" alt="Tips">
+                    </div>
+                </div>
+            </div>
+            
+            <div class="display__BestOfYear">
+                <p>BEST OF THE BEST</p>
+                <div class="displayTipsMonth">
+                    <div>
+                        <img class="img" src="https://cdn.shopify.com/s/files/1/0906/2558/files/Best_of_BestArtboard_1_copy_1_741d49fc-2258-48f1-b54e-1780d0a708dc.jpg" alt="Tips">
+                    </div>
+                    <div>
+                        <img class="img" src="https://cdn.shopify.com/s/files/1/0906/2558/files/Best_of_BestArtboard_1_1_17f7b94d-1a0f-4866-b5ed-f778ccd639cd.jpg" alt="Tips">
+                    </div>
+                    <div>
+                        <img class="img" src="https://cdn.shopify.com/s/files/1/0906/2558/files/Best_of_BestArtboard_1_copy_2_1_5efca581-4f18-4aad-b409-e7182ce04ad0.jpg" alt="Tips">
+                    </div>
+                </div>
+            </div>
+
+            <div class="display__Explore">
+                <p>EXPLORE</p>
+                <div class="display__Explore__page">
+                    <button id="prevBtnInE"><i class="fas fa-chevron-left"></i></button>
+                    <div id="diaplayExpolreData"></div>
+                    <button id="nextBtnInSE"><i class="fas fa-chevron-right"></i></button>
+                </div>
+            </div>
+        </div>
+        <div id="myModalW" class="modalW">
+            <!-- Modal content to add to wish list-->
+            <div class="modal-contentW">
+                <span class="closeW">&times;</span>
+                <div id="wishListPopUpData"></div>
+            </div>
+        </div>
+        <div id="myModal" class="modal">
+            <!-- Modal content to show product details -->
+            <div class="modal-content">
+              <span class="close">&times;</span>
+              <div id="modalData"></div>
+            </div>
+        </div>
+        <!-- Landing Page Code Ends here -->
+
+        <!-- Footer Code starts here -->
+        <div class="Footer">
+            <div class="Footer__Logo">
+                <img class="img" src="https://cdn.shopify.com/s/files/1/0906/2558/files/Sugr_logo_white-02_600x.png" alt="Sugar Cosmetics Logo">
+            </div>
+            <div class="iconBox">
+                <div class="icon"><i class="fa fa-facebook"></i></div>
+                <div class="icon"><i class="fa fa-twitter"></i></div>
+                <div class="icon"><i class="fa fa-envelope"></i></div>
+            </div>
+            <div class="Footer__Info">
+                <div id="info__1">
+                    <strong>INFORMATION</strong>
+                    <div class="dash"></div>
+                    <p>Contact Us</p>
+                    <p>Store Locator</p>
+                    <p>Terms & conditions</p>
+                    <p>Returns</p>
+                    <p>FAQs</p>
+                    <p>About Us</p>
+                </div>
+                <div>
+                    <strong>CUSTOMER CARE</strong>
+                    <div class="dash"></div>
+                    <div class="mobileNum"><i class="fa fa-mobile-phone"></i><p>: 022-2847-5555</p></div>
+                    <div class="mobileNum"><i class="fa fa-mobile-phone"></i><p>: 022-6805-6009</p></div>
+                    <p id="dateTime">(Monday to Friday : 9 AM - 7 PM).</p>
+                    <div class="mobileNum" id="spcaeTopBottom"><i class="fa fa-envelope-open-o"></i><p>: hello@sugarcosmetics.com</p></div>
+
+                    <strong>INFLUENCER COLLAB</strong>
+                    <div class="dash"></div>
+                    <div class="mobileNum"><i class="fa fa-external-link"></i><p>: Join Us</p></div>
+
+                    <strong>CAREER</strong>
+                    <div class="dash"></div>
+                    <div class="mobileNum"><i class="fa fa-envelope-open-o"></i><p>: careers@sugarcosmetics.com</p></div>
+
+                    <strong>PRESS & MEDIA</strong>
+                    <div class="dash"></div>
+                    <div class="mobileNum"><i class="fa fa-envelope-open-o"></i><p>: pr@sugarcosmetics.com</p></div>
+                </div>
+
+                <div id="bannerGetApp">
+                    <strong>GET THE NEW SUGAR APP<br>TODAY.</strong>
+                    <div class="dash"></div>
+                    <div class="mobileNum"><p>Tap into a better shopping<br>experience.</p></div>
+                    <div class="glogoBanner">
+                        <div><img class="img" src="https://cdn.shopify.com/s/files/1/0906/2558/files/google-play.png?v=1580269780" alt="Google Playstore"></div>
+                        <div><img class="img" src="https://cdn.shopify.com/s/files/1/0906/2558/files/apple-store.png?v=1580269780" alt="Apple AppStore"></div>
+                    </div>
+                </div>
+
+                <div id="newsLetter">
+                    <strong>NEWSLETTER</strong>
+                    <div class="dash"></div>
+                    <div class="mobileNum" id="newsTextBox"><input class="newsText" type="text" placeholder="Your email address"></div>
+                    <button class="signUpButton">SIGN UP</button>
+                </div>
+            </div>
+            <div class="dividePage"></div>
+            <div class="copyRight">
+                <p>Copyright © 2020 SUGAR Cosmetics. All rights reserved.</p>
+            </div>
+        </div>
+        <!-- Footer Code Ends here -->
+    </div>
+
+    <script src="/Header&Footer/H&F.js"></script>
+</body>
+</html>

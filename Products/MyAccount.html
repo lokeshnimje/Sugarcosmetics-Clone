@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Header&Footer/H&F.css">
+    <link rel="icon" href="https://cdn.shopify.com/s/files/1/0906/2558/files/Sugar_Logo_9182588f-0366-4812-9fc5-f3a4b639c044_32x.png?v=1597067859%22">
+    <title>Document</title>
+    <style>
+        html{
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0;
+    padding: 0%;
+    font-family: 'Poppins', sans-serif;
+}
+
+.img{
+    width: 100%;
+    height: 100%;
+}
+
+.Header{
+    display: flex;
+    width: 100%;
+    height: 85px;
+    border: 1px solid #DCDCDC;
+    border-right: none;
+    border-left: none;
+}
+
+.Header__Logo{
+    width: 15%;
+    height: 70%;
+    /* border: 1px solid black; */
+    margin-top: 0.9%;
+    margin-left: 2%;
+    cursor: pointer;
+}
+
+.Header__Search{
+    width: 48%;
+    height: 52%;
+    border: 2px solid #DCDCDC;
+    display: flex;
+    margin-top: 1.5%;
+    margin-left: 2%;
+}
+
+.Header__Search__inputBox{
+    width: 330%;
+    height: 85%;
+    margin-top: 1%;
+    margin-left: 5%;
+    border: none;
+    border-style: none;
+    font-size: 15px;
+    outline: none;
+}
+
+.Header__Search__searchicon{
+    height: 80%;
+    width: 7%;
+    margin-top: 0.2%;
+    color: rgb(94, 94, 94);
+    /* border: 1px solid black; */
+    margin-left: 65%;
+    font-size: 170%;
+    text-align: center;
+    cursor: pointer;
+}
+
+.Header__Login{
+    width: auto;
+    height: 50%;
+    /* border: 1px solid blue; */
+    font-size: 14px;
+    font-style: italic;
+    margin-top: 2.3%;
+    margin-left: 10%;
+    cursor: pointer;
+    color: #757575;
+}
+
+.Header__LikeCart{
+    display: flex;
+    width: 10%;
+    height: 50%;
+    margin-top: 1.8%;
+    margin-left: 1%;
+    /* border: 1px solid violet; */
+    cursor: pointer;
+}
+
+.Header__LikeCart>div{
+ width: 40%;
+ /* border: 1px solid blue; */
+ text-align: center;
+ font-size: 140%;
+}
+
+.Header__LikeCart>div>a>i{
+    margin-top: 13%;
+}
+
+.Header__LikeCart>div>a{
+    color: black;
+    text-decoration: none;
+}
+
+.Header__Login__P{
+    text-decoration: none;
+    color: black;
+}
+
+.Header__Login__P:hover{
+    text-decoration: underline;
+}
+
+.navBar{
+    width: 100%;
+    height: 40px;
+    /* border: 1px solid black; */
+    display: flex;
+}
+
+.navBar>div{
+    width: auto;
+    height: 70%;
+    margin-left: 1.5%;
+    /* border: 1px solid black; */
+    text-align: center;
+    margin-top: 0.5%;
+    cursor: pointer;
+}
+
+.navBar>div>i{
+    color: #757575;
+}
+
+.dropbtn{
+    font-weight: bold;
+}
+
+.dropbtn:hover{
+    color: #FC2779;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.navBar__content{
+    display: none;
+    position: absolute;
+    width: 700px;
+    border: 1px solid #DCDCDC;
+    background-color: white;
+    z-index: 1;
+}
+  
+.navBar__content>div>a{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.navBar__content>div>a:hover{
+    color: #ff619e;
+    /* font-size: 18px; */
+    transform:translateX(12px);
+    transition-duration: 0.3s;
+}
+
+.navBar__content>div{
+    margin-left: 5%;
+}
+
+.navBar__content>div>p{
+    font-weight: bold;
+    text-align: left;
+}
+
+.navBar__content>div>p:hover{
+    color: #ff619e;
+}
+
+.dropdown:hover .navBar__content {display: block; display: flex;}
+
+#navBar__content1{
+    width: 200px;
+}
+
+/* ---------------------------------------------Header Code Ends here----------------------------------------------- */
+/* ---------------------------------------------Footer Code Starts here----------------------------------------------- */
+
+.Footer{
+    width: 100%;
+    height: auto;
+    background-color: black;
+    border: 1px solid black;
+    border-left: none;
+    border-right: none;
+    margin-top: 5%;
+
+}
+
+.Footer__Logo, .iconBox{
+    width: 10%;
+    height: 140px;
+    /* border: 1px solid white; */
+    margin: auto;
+    margin-top: 5%;
+}
+
+.iconBox{
+    margin-top: 0%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.icon>i{
+    color: whitesmoke;
+    cursor: pointer;
+}
+
+.Footer__Info{
+    color: white;
+    /* border: 1px solid white; */
+    width: 95%;
+    height: auto;
+    margin-left: 2%;
+    margin-top: 3%;
+    display: flex;
+}
+
+.Footer__Info>div{
+    margin-right: 2%;
+    /* border: 1px solid white; */
+    width: auto;
+}
+
+.Footer__Info>div>strong{
+    letter-spacing: 2px;
+}
+
+.Footer__Info>div>p{
+    color: rgb(124, 124, 124);
+    line-height: 18px;
+}
+
+.Footer__Info>div>p:hover, .mobileNum>p:hover{
+    color: white;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#info__1{
+    width: 32%;
+    margin-left: 5%;
+    /* margin-right: 5%; */
+}
+
+.dash{
+    width: 15%;
+    height: 3px;
+    background-color: white;
+    margin-bottom: 35px;
+}
+
+.mobileNum{
+    display: flex;
+    width: 300px;
+}
+
+/* .mobileNum>i, .mobileNum>p{
+    border: 1px solid white;
+} */
+
+.mobileNum>i{
+    height: 25px;
+    width: 10%;
+    font-size: 22px;
+}
+
+.mobileNum>p{
+    margin-top: 1px;
+    margin-left: 1%;
+    font-size: 15px;
+    color: rgb(124, 124, 124);
+}
+
+#dateTime{
+    margin-top: 0%;
+    color: white;
+    text-decoration: none;
+    cursor:text;
+    font-size: 15px;
+}
+
+#spcaeTopBottom{
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.glogoBanner{
+    display: flex;
+    width: 75%;
+    height: 30px;
+    /* border: 1px solid white; */
+}
+
+.glogoBanner>div{
+    width: 42%;
+    height: 100%;
+    margin-left: 2%;
+    cursor: pointer;
+}
+
+#bannerGetApp{
+    width: 30%;
+}
+
+#newsLetter{
+    /* border: 1px solid white; */
+    width: 40%;
+    height: 200px;
+}
+
+#newsTextBox{
+    border: 2px solid white;
+    width: 80%;
+    height: 18%;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+}
+
+.newsText{
+    width: 100%;
+    background-color: inherit;
+    border: none;
+    outline: none;
+    color: rgb(124, 124, 124);
+}
+
+.signUpButton{
+    padding: 10px;
+    margin-top: 2%;
+    width: 50%;
+    border: none;
+    outline: none;
+    background-color: #FC2779;
+    cursor: pointer;
+    color: white;
+}
+
+.signUpButton:hover{
+    background-color: #ff0062;
+}
+
+.dividePage{
+    width: 82%;
+    height: 1px;
+    background-color: grey;
+    margin: auto;
+    margin-top: 5%;
+}
+
+.copyRight{
+    width: 50%;
+    height: 40px;
+    /* border: 1px solid white; */
+    margin: auto;
+    margin-top: 3%;
+    color: white;
+    text-align: center;
+    margin-bottom: 1%;
+}
+
+/* ---------------------------------------------Footer Code Ends here----------------------------------------------- */
+    </style>
+</head>
+<body>
+        <!-- Header Code starts here -->
+        <div class="Header">
+            <div class="Header__Logo">
+                <a href="/Header&Footer/H&F.html"><img class="img" src="https://cdn.shopify.com/s/files/1/0906/2558/files/SUGAR-Festive-logo_ba6a68ab-b29e-4109-ab60-bc8132bb153b_600x.jpg?v=1609495364" alt="Sugar Cosmetics Logo"></a>
+            </div>
+            <div class="Header__Search">
+                <div><input id="searchItems" class="Header__Search__inputBox" type="text" placeholder="Search for products"></div>
+                <div class="Header__Search__searchicon"><i class="fas fa-search"></i></div>
+            </div>
+            <div class="Header__Login"> 
+                <a id="loginLink" class="Header__Login__P">Login / Register</a>
+            </div>
+            <div class="Header__LikeCart">
+                <div><a href="/wishlist/wishlist.html"><i class="far fa-heart"></i></a></div>
+                <div id="cartPage"><a href="/Cart_page/cart.html"><i class="fas fa-shopping-cart"></i></a></div>
+            </div>
+        </div>
+    <div class="navBar">
+        <div class="dropdown">
+            <div class="dropbtn">MAKEUP <i class="fas fa-angle-down"></i></div>
+            <div class="navBar__content">
+                <div>
+                    <p>LIPS</p>
+                    <a href="/Products/lips.html">LIPSTICKS</a>
+                    <a href="/Products/lips.html">LIP CARE</a>
+                    <a href="/Products/lips.html">LIQUID LIP COLOURS</a>
+                    <a href="/Products/lips.html">LIP GLOSS & LINERS</a>
+                    <a href="/Products/lips.html">VALUE SETS</a>
+                    <a href="/Products/lips.html">GIFTING</a>
+                </div>
+                <div>
+                    <p>FACE</p>
+                    <a href="/Products/face.html">PRIMERS</a>
+                    <a href="/Products/face.html">FOUNDATION</a>
+                    <a href="/Products/face.html">POWDER / COMPACT</a>
+                    <a href="/Products/face.html">CONCEALERS & <br>CORRECTORS</a>
+                    <a href="/Products/face.html">BLUSH</a>
+                    <a href="/Products/face.html">HIGHLIGHTERS & <br>CONTOUR</a>
+                    <a href="/Products/face.html">BRONZER</a>
+                    <a href="/Products/face.html">FACE PALETTES</a>
+                    <a href="/Products/face.html">VALUE SETS</a>
+                </div>
+                <div>
+                    <p>EYES</p>
+                    <a href="/Products/eye.html">EYELINERS</a>
+                    <a href="/Products/eye.html">KAJAL</a>
+                    <a href="/Products/eye.html">EYEBROWS</a>
+                    <a href="/Products/eye.html">EYESHADOWS</a>
+                    <a href="/Products/eye.html">MASCARA</a>
+                    <a href="/Products/eye.html">VALUE SETS</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="dropdown">
+            <div class="dropbtn">SKIN <i class="fas fa-angle-down"></i></div>
+            <div class="navBar__content" id="navBar__content1">
+                <div>
+                    <a href="">MOISTURIZERS</a>
+                    <a href="">MASKS</a>
+                    <a href="">SETTING MISTS</a>
+                    <a href="">MAKEUP REMOVER</a>
+                    <a href="">SKINCARE<br>COMBOS</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="dropdown">
+            <div class="dropbtn">BLOG <i class="fas fa-angle-down"></i></div>
+            <div class="navBar__content" id="navBar__content1">
+                <div>
+                    <a href="">FEATURED</a>
+                    <a href="">MAKEUP</a>
+                    <a href="">SKINCARE</a>
+                    <a href="">CARE</a>
+                    <a href="">QUIZ</a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="dropbtn">OFFERS</div>
+
+        <div class="dropdown">
+            <div class="dropbtn">TRENDING <i class="fas fa-angle-down"></i></div>
+            <div class="navBar__content" id="navBar__content1">
+                <div>
+                    <a href="">MINIS SET</a>
+                    <a href="">LIMITED EDITION</a>
+                    <a href="">NEW LAUNCHES</a>
+                    <a href="">VALUE SETS</a>
+                    <a href="">GIFTING</a>
+                </div>
+            </div>
+        </div>  
+    </div>
+    <!-- Header Code Ends here -->
+
+
+</body>
+</html>
