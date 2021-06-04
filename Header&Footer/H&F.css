@@ -436,12 +436,15 @@ body{
 
 .displayCard{
     width: 22%;
-    height: fit-content;
+    height: 90%;
     /* border: 1px solid green; */
     margin-bottom: 2%;
     margin-left: 2%;
     cursor: pointer;
     position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 /* .displayCard:hover .wish_icon, .displayCard:hover .prod_detail{
@@ -449,33 +452,51 @@ body{
 } */
 
 .productImage{
-    width: 80%;
-    height:70%;
+    width: 100%;
+    height:80%;
     /* position: absolute; */
     /* border: 1px solid black; */
 }
+.productSalePrice {
+    font-weight: lighter;
+    color: #FD5B99;
+}
 .productImageF{
-    width: 80%;
-    /* height:80%; */
+    width: 100%;
+    height:80%;
    
 }
-
+.textDetails {
+    /* border: 1px solid red; */
+    height: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
 .productTitle{
+    cursor: pointer;
+    margin: 0 auto;
     /* border: 1px solid black; */
-    width: 100%;
-    height: 18%;
+    /* width: 100%; */
+    /* height: 18%; */
+}
+.productTitle:hover {
+    color: #FD5B99;
+    text-decoration: none;
 }
 
 .productFinalSalePrice{
     /* border: 1px solid black; */
-    width: 100%;
-    height: 10%;
+    /* width: 100%; */
+    /* height: 10%; */
     display: flex;
+    justify-content: center;
 }
 
 .productFinalSalePrice>div{
-    width: 50%;
-    height: 100%;
+    padding: 0 10px;
+    /* width: 50%; */
+    /* height: 100%; */
     /* border: 1px solid black; */
 }
 
@@ -489,17 +510,17 @@ body{
 
 .prod_detail{
     width: 35px;
-    height: 35px;
+    /* height: 35px; */
     /* border: 1px solid black; */
     position: absolute;
-    top: 2px;
-    right: 20px;
+    top: 0px;
+    right: 5px;
     font-size: 20px;
     /* display: none; */
 }
 
 .prod_detail:hover{
-    color: rgb(252, 143, 161);
+    color: red;
 }
 .addBtns {
     display: flex;
@@ -516,7 +537,7 @@ body{
 .display__Featured__page, #display__Clearance__page, .display__JustIn__page, .display__Skincare__page,
 .display__Explore__page{
     display: flex;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     justify-content: space-evenly;
     /* height: fit-content; */
 }
@@ -601,9 +622,9 @@ body{
     margin-top: 2%;
 }
 .boxLoading{
-    width: 10%;
-    height: 10%;
-    margin-left: 35%;
+    /* width: 10%;
+    height: 10%; */
+    margin:auto;
 }
 
 .autoPageUp{
@@ -674,8 +695,8 @@ body{
 
 .cart1{
     margin:2px auto;
-    width:40%;
-    padding: 5px;
+    width:100%;
+    padding: 10px;
     background-color: black;
     color:white;
     border:none;
@@ -683,9 +704,12 @@ body{
     /* display:none */
 }
 .cart1:hover{
-    background-color: rgb(199, 199, 199);
-    color:black;
-    transition: 0.3s;
+    /* background-color: #fc78ab; */
+    border: 1px solid #fc619d;
+    background-color: white;
+    color:#FC2779;
+    transition: 0.2s;
+    font-weight: bold;
 }
 .modal {
     display: none;
@@ -899,17 +923,34 @@ body{
 
 .wishListPopUp{
     display: flex;
+    justify-content: space-evenly;
 }
 
 .wishListPopUp>i{
-    width: 20%;
+    width: fit-content;
     height: 100%;
     font-size: 45px;
     margin-top: 3%;
-    color: green;
+    color: red;
 }
 
 .wishListPopUp>p{
+    font-size: 19px;
+}
+.cartPopUp{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.cartPopUp>i{
+    width: fit-content;
+    height: 100%;
+    font-size: 45px;
+    margin-top: 3%;
+    color: rgb(0, 132, 255);
+}
+
+.cartPopUp>p{
     font-size: 19px;
 }
 

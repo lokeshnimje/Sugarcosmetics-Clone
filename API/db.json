@@ -6,7 +6,7 @@
       "mrp": 799,
       "price": 549,
       "discount": 21,
-      "img": "//cdn.shopify.com/s/files/1/0906/2558/products/sugar-cosmetics-smudge-me-not-liquid-lipstick-15384035524691.progressive.jpg?v=1605777756"
+      "img": "https://cdn.shopify.com/s/files/1/0906/2558/products/sugar-cosmetics-plush-crush-creme-crayon-13974621519955.progressive.jpg?v=1580456731"
     },
     {
       "id": 2,
@@ -14,7 +14,7 @@
       "mrp": 999,
       "price": 599,
       "discount": 30,
-      "img": "//cdn.shopify.com/s/files/1/0906/2558/products/sugar-cosmetics-smudge-me-not-lip-duo-01-brazen-raisin-burgundy-13200661643347.progressive.jpg?v=1577305698      "
+      "img": "https://cdn.shopify.com/s/files/1/0906/2558/products/sugar-cosmetics-smudge-me-not-lip-duo-01-brazen-raisin-burgundy-13200661643347.progressive.jpg?v=1577305698"
     },
     {
       "id": 3,
@@ -30,7 +30,7 @@
       "mrp": 599,
       "price": 459,
       "discount": 20,
-      "img": "//cdn.shopify.com/s/files/1/0906/2558/products/sugar-cosmetics-plush-crush-creme-crayon-13974621519955.progressive.jpg?v=1580456731"
+      "img": "https://cdn.shopify.com/s/files/1/0906/2558/products/sugar-cosmetics-plush-crush-creme-crayon-13974621519955.progressive.jpg?v=1580456731"
     },
     {
       "id": 5,
@@ -38,7 +38,7 @@
       "mrp": 899,
       "price": 499,
       "discount": 30,
-      "img": "//cdn.shopify.com/s/files/1/0906/2558/products/sugar-cosmetics-mettle-matte-lipstick-01-athena-red-terracotta-13200497737811.progressive.jpg?v=1577303422"
+      "img": "https://cdn.shopify.com/s/files/1/0906/2558/products/sugar-cosmetics-mettle-matte-lipstick-01-athena-red-terracotta-13200497737811.progressive.jpg?v=1577303422"
     },
     {
       "id": 6,
@@ -66,11 +66,11 @@
     },
     {
       "id": 9,
-      "title": "NEVER SAY DRY CREME LIPSTICK",
+      "title": "NEVER SAY DRY LIPSTICK",
       "mrp": 899,
       "price": 649,
       "discount": 23,
-      "img": "//cdn.shopify.com/s/files/1/0906/2558/products/sugar-cosmetics-never-say-dry-creme-lipstick-6943253856339.png?v=1577298740      "
+      "img": "https://cdn.shopify.com/s/files/1/0906/2558/products/sugar-cosmetics-mettle-matte-lipstick-01-athena-red-terracotta-13200497737811.progressive.jpg?v=1577303422"
     },
     {
       "id": 10,
@@ -88,7 +88,7 @@
       "mrp": 589,
       "price": 459,
       "discount": 20,
-      "img": "//cdn.shopify.com/s/files/1/0906/2558/products/sugar-cosmetics-drop-the-base-serum-foundation-10959991767123.progressive.jpg?v=1577270075"
+      "img": "https://cdn.shopify.com/s/files/1/0906/2558/products/sugar-cosmetics-drop-the-base-serum-foundation-10959991767123.progressive.jpg?v=1577270075"
     },
     {
       "id": 12,
@@ -96,7 +96,7 @@
       "mrp": 589,
       "price": 459,
       "discount": 20,
-      "img": "//cdn.shopify.com/s/files/1/0906/2558/products/sugar-cosmetics-power-clay-spf20-bb-cushion-05-blonde-latte-light-shade-with-neutral-undertone-14113897480275.progressive.jpg?v=1582638454      "
+      "img": "https://cdn.shopify.com/s/files/1/0906/2558/products/sugar-cosmetics-power-clay-spf20-bb-cushion-05-blonde-latte-light-shade-with-neutral-undertone-14113897480275.progressive.jpg?v=1582638454"
     },
     {
       "id": 13,
@@ -104,7 +104,7 @@
       "mrp": 1299,
       "price": 899,
       "discount": 30,
-      "img": "//cdn.shopify.com/s/files/1/0906/2558/products/sugar-cosmetics-all-set-to-go-translucent-powder-12785059758163.progressive.jpg?v=1589216614      "
+      "img": "https://cdn.shopify.com/s/files/1/0906/2558/products/sugar-cosmetics-all-set-to-go-translucent-powder-12785059758163.progressive.jpg?v=1589216614"
     },
     {
       "id": 14,
@@ -112,7 +112,7 @@
       "mrp": 899,
       "price": 699,
       "discount": 23,
-      "img": "//cdn.shopify.com/s/files/1/0906/2558/products/sugar-cosmetics-set-the-tone-tinted-powder-10-latte-light-13444641390675.progressive.jpg?v=1577180577      "
+      "img": "https://cdn.shopify.com/s/files/1/0906/2558/products/sugar-cosmetics-set-the-tone-tinted-powder-10-latte-light-13444641390675.progressive.jpg?v=1577180577"
     },
     {
       "id": 15,
@@ -120,15 +120,15 @@
       "mrp": 999,
       "price": 799,
       "discount": 20,
-      "img": "//cdn.shopify.com/s/files/1/0906/2558/products/sugar-cosmetics-face-fwd-highlighter-stick-01-champagne-champion-champagne-gold-13825399652435.progressive.jpg?v=1578511799      "
+      "img": "https://cdn.shopify.com/s/files/1/0906/2558/products/sugar-cosmetics-face-fwd-highlighter-stick-01-champagne-champion-champagne-gold-13825399652435.progressive.jpg?v=1578511799"
     },
     {
       "id": 16,
-      "title": "CONTOUR DE FORCE HIGHLIGHTER PALLETE",
+      "title": "CONTOUR HIGHLIGHTER PALLETE",
       "mrp": 889,
       "price": 799,
       "discount": 13,
-      "img": "//cdn.shopify.com/s/files/1/0906/2558/products/sugar-cosmetics-contour-de-force-highlighter-palette-01-glow-genius-12788198572115.progressive.jpg?v=1607617239 "
+      "img": "https://cdn.shopify.com/s/files/1/0906/2558/products/sugar-cosmetics-contour-de-force-highlighter-palette-01-glow-genius-12788198572115.progressive.jpg?v=1607617239"
     },
     {
       "id": 17,
@@ -136,31 +136,31 @@
       "mrp": 1499,
       "price": 1299,
       "discount": 20,
-      "img": "//cdn.shopify.com/s/files/1/0906/2558/products/sugar-cosmetics-foundation-stick-57-romano-foundation-stick-37-freddo-14839796138067.progressive.jpg?v=1597226623      "
+      "img": "https://cdn.shopify.com/s/files/1/0906/2558/products/sugar-cosmetics-foundation-stick-57-romano-foundation-stick-37-freddo-14839796138067.progressive.jpg?v=1597226623"
     },
     {
       "id": 18,
-      "title": "MAGIC WAND WATERPROOF CONCEALER",
+      "title": "MAGIC WATERPROOF CONCEALER",
       "mrp": 859,
       "price": 799,
       "discount": 17,
-      "img": "//cdn.shopify.com/s/files/1/0906/2558/products/sugar-cosmetics-magic-wand-waterproof-concealer-07-vanilla-latte-fair-golden-undertone-13278398611539.progressive.jpg?v=1577278822      "
+      "img": "https://cdn.shopify.com/s/files/1/0906/2558/products/sugar-cosmetics-magic-wand-waterproof-concealer-07-vanilla-latte-fair-golden-undertone-13278398611539.progressive.jpg?v=1577278822"
     },
     {
       "id": 19,
-      "title": "THE MOST ELIGIBLUR SMOOTHING PRIMER",
+      "title": "ELIGIBLUR SMOOTHING PRIMER",
       "mrp": 1399,
       "price": 1199,
       "discount": 22,
-      "img": "//cdn.shopify.com/s/files/1/0906/2558/products/sugar-cosmetics-the-most-eligiblur-smoothing-primer-13588736835667.progressive.jpg?v=1587374578      "
+      "img": "https://cdn.shopify.com/s/files/1/0906/2558/products/sugar-cosmetics-drop-the-base-serum-foundation-10959991767123.progressive.jpg?v=1577270075"
     },
     {
       "id": 20,
-      "title": "BASE OF GLORY PORE MINIMIZING PRIMER",
+      "title": "BASE OF GLORY PRIMER",
       "mrp": 999,
       "price": 799,
       "discount": 20,
-      "img": "//cdn.shopify.com/s/files/1/0906/2558/products/sugar-cosmetics-base-of-glory-pore-minimizing-primer-12774767624275.progressive.jpg?v=1611062037      "
+      "img": "https://cdn.shopify.com/s/files/1/0906/2558/products/sugar-cosmetics-base-of-glory-pore-minimizing-primer-12774767624275.progressive.jpg?v=1611062037"
     }
   ],
   "eye": [
@@ -170,47 +170,47 @@
       "mrp": 799,
       "price": 599,
       "discount": 18,
-      "img": "//cdn.shopify.com/s/files/1/0906/2558/products/sugar-cosmetics-born-to-wing-gel-eyeliner-01-blackmagic-woman-13271970283603.progressive.jpg?v=1577091941      "
+      "img": "https://cdn.shopify.com/s/files/1/0906/2558/products/sugar-cosmetics-born-to-wing-gel-eyeliner-01-blackmagic-woman-13271970283603.progressive.jpg?v=1577091941"
     },
     {
       "id": 22,
-      "title": "WINGMAN WATERPROOF MICROLINER-01",
+      "title": "WINGMAN MICROLINER-01",
       "mrp": 999,
       "price": 799,
       "discount": 20,
-      "img": "//cdn.shopify.com/s/files/1/0906/2558/products/sugar-cosmetics-wingman-waterproof-microliner-01-i-ll-be-black-black-14233683034195.progressive.jpg?v=1586497395      "
+      "img": "https://cdn.shopify.com/s/files/1/0906/2558/products/sugar-cosmetics-eye-dared-you-so-metallic-eyeliner-01-bronze-horseman-metallic-coppery-bronze-13272118165587.progressive.jpg?v=1577264543"
     },
     {
       "id": 23,
-      "title": "GRAPHIC JAM 36HR EYELINER BLACK",
+      "title": "GRAPHIC EYELINER BLACK",
       "mrp": 999,
       "price": 859,
       "discount": 15,
-      "img": "//cdn.shopify.com/s/files/1/0906/2558/products/sugar-cosmetics-graphic-jam-36hr-eyeliner-01-blackest-black-15278933278803.progressive.jpg?v=1603699288      "
+      "img": "https://cdn.shopify.com/s/files/1/0906/2558/products/sugar-cosmetics-graphic-jam-36hr-eyeliner-01-blackest-black-15278933278803.progressive.jpg?v=1603699288"
     },
     {
       "id": 24,
-      "title": "EYE DARED YOU SO! METALLIC EYELINER",
+      "title": "EYE DARED METALLIC EYELINER",
       "mrp": 699,
       "price": 499,
       "discount": 30,
-      "img": "//cdn.shopify.com/s/files/1/0906/2558/products/sugar-cosmetics-eye-dared-you-so-metallic-eyeliner-01-bronze-horseman-metallic-coppery-bronze-13272118165587.progressive.jpg?v=1577264543      "
+      "img": "https://cdn.shopify.com/s/files/1/0906/2558/products/sugar-cosmetics-eye-dared-you-so-metallic-eyeliner-01-bronze-horseman-metallic-coppery-bronze-13272118165587.progressive.jpg?v=1577264543"
     },
     {
       "id": 25,
-      "title": "UPTOWN CURL LENGTHENING MASCARA BLACK",
+      "title": "UPTOWN CURL MASCARA BLACK",
       "mrp": 999,
       "price": 499,
       "discount": 40,
-      "img": "//cdn.shopify.com/s/files/1/0906/2558/products/sugar-cosmetics-uptown-curl-lengthening-mascara-01-black-beauty-black-12775587676243.progressive.jpg?v=1587390666      "
+      "img": "https://cdn.shopify.com/s/files/1/0906/2558/products/sugar-cosmetics-eye-dared-you-so-metallic-eyeliner-01-bronze-horseman-metallic-coppery-bronze-13272118165587.progressive.jpg?v=1577264543"
     },
     {
       "id": 26,
-      "title": "LASH OF TITANS MASCARA BLACK",
+      "title": "LASH OF TITANS MASCARA",
       "mrp": 999,
       "price": 599,
       "discount": 39,
-      "img": "//cdn.shopify.com/s/files/1/0906/2558/products/sugar-cosmetics-lash-of-titans-volumizing-mascara-01-black-with-a-bang-15702323920979.progressive.jpg?v=1611554000      "
+      "img": "https://cdn.shopify.com/s/files/1/0906/2558/products/sugar-cosmetics-kohl-lengthening-mascara-15350448160851_large.jpg?v=1620721080"
     },
     {
       "id": 27,
@@ -218,23 +218,23 @@
       "mrp": 499,
       "price": 259,
       "discount": 30,
-      "img": "//cdn.shopify.com/s/files/1/0906/2558/products/sugar-cosmetics-kohl-of-honour-intense-kajal-05-go-green-dark-green-15027251642451.progressive.jpg?v=1599802881      "
+      "img": "https://cdn.shopify.com/s/files/1/0906/2558/products/sugar-cosmetics-born-to-wing-gel-eyeliner-01-blackmagic-woman-13271970283603.progressive.jpg?v=1577091941"
     },
     {
       "id": 28,
-      "title": "TWIST AND SHOUT FADEPROOF KAJAL- BLACK",
+      "title": "TWIST AND SHOUT KAJAL",
       "mrp": 499,
       "price": 399,
       "discount": 20,
-      "img": "//cdn.shopify.com/s/files/1/0906/2558/products/sugar-cosmetics-twist-and-shout-fadeproof-kajal-01-black-velvet-black-12771571433555.progressive.jpg?v=1587027093      "
+      "img": "https://cdn.shopify.com/s/files/1/0906/2558/products/sugar-cosmetics-twist-and-shout-fadeproof-kajal-01-black-velvet-black-12771571433555.progressive.jpg?v=1587027093"
     },
     {
       "id": 29,
-      "title": "ILLUMINATING MOISTURIZER + KOHL",
+      "title": "ILLUMINATING MOISTURIZER+KOHL",
       "mrp": 999,
       "price": 699,
       "discount": 30,
-      "img": "//cdn.shopify.com/s/files/1/0906/2558/products/sugar-cosmetics-illuminating-moisturizer-kohl-15350403825747.progressive.jpg?v=1605159455      "
+      "img": "https://cdn.shopify.com/s/files/1/0906/2558/products/sugar-cosmetics-illuminating-moisturizer-kohl-15350403825747.progressive.jpg?v=1605159455"
     },
     {
       "id": 30,
@@ -242,7 +242,7 @@
       "mrp": 799,
       "price": 499,
       "discount": 25,
-      "img": "//cdn.shopify.com/s/files/1/0906/2558/products/sugar-cosmetics-eyeliner-kohl-value-set-14821476859987.progressive.jpg?v=1596801792      "
+      "img": "https://cdn.shopify.com/s/files/1/0906/2558/products/sugar-cosmetics-eyeliner-kohl-value-set-14821476859987.progressive.jpg?v=1596801792"
     }
   ],
   "featured": [
@@ -252,7 +252,7 @@
       "mrp": 899,
       "price": 499,
       "discount": 30,
-      "img": "//cdn.shopify.com/s/files/1/0906/2558/products/sugar-cosmetics-mettle-matte-lipstick-01-athena-red-terracotta-13200497737811.progressive.jpg?v=1577303422"
+      "img": "https://cdn.shopify.com/s/files/1/0906/2558/products/sugar-cosmetics-mettle-matte-lipstick-01-athena-red-terracotta-13200497737811.progressive.jpg?v=1577303422"
     },
     {
       "id": 6,
@@ -280,11 +280,11 @@
     },
     {
       "id": 16,
-      "title": "CONTOUR DE FORCE HIGHLIGHTER PALLETE",
+      "title": "CONTOUR DE FORCE PALLETE",
       "mrp": 889,
       "price": 799,
       "discount": 13,
-      "img": "//cdn.shopify.com/s/files/1/0906/2558/products/sugar-cosmetics-contour-de-force-highlighter-palette-01-glow-genius-12788198572115.progressive.jpg?v=1607617239 "
+      "img": "https://cdn.shopify.com/s/files/1/0906/2558/products/sugar-cosmetics-contour-de-force-highlighter-palette-01-glow-genius-12788198572115.progressive.jpg?v=1607617239"
     },
     {
       "id": 17,
@@ -292,23 +292,23 @@
       "mrp": 1499,
       "price": 1299,
       "discount": 20,
-      "img": "//cdn.shopify.com/s/files/1/0906/2558/products/sugar-cosmetics-foundation-stick-57-romano-foundation-stick-37-freddo-14839796138067.progressive.jpg?v=1597226623      "
+      "img": "https://cdn.shopify.com/s/files/1/0906/2558/products/sugar-cosmetics-foundation-stick-57-romano-foundation-stick-37-freddo-14839796138067.progressive.jpg?v=1597226623"
     },
     {
       "id": 18,
-      "title": "MAGIC WAND WATERPROOF CONCEALER",
+      "title": "MAGIC WAND CONCEALER",
       "mrp": 859,
       "price": 799,
       "discount": 17,
-      "img": "//cdn.shopify.com/s/files/1/0906/2558/products/sugar-cosmetics-magic-wand-waterproof-concealer-07-vanilla-latte-fair-golden-undertone-13278398611539.progressive.jpg?v=1577278822      "
+      "img": "https://cdn.shopify.com/s/files/1/0906/2558/products/sugar-cosmetics-magic-wand-waterproof-concealer-07-vanilla-latte-fair-golden-undertone-13278398611539.progressive.jpg?v=1577278822"
     },
     {
       "id": 19,
-      "title": "THE MOST ELIGIBLUR SMOOTHING PRIMER",
+      "title": "THE MOST SMOOTHING PRIMER",
       "mrp": 1399,
       "price": 1199,
       "discount": 22,
-      "img": "//cdn.shopify.com/s/files/1/0906/2558/products/sugar-cosmetics-the-most-eligiblur-smoothing-primer-13588736835667.progressive.jpg?v=1587374578      "
+      "img": "https://cdn.shopify.com/s/files/1/0906/2558/products/sugar-cosmetics-mettle-matte-lipstick-01-athena-red-terracotta-13200497737811.progressive.jpg?v=1577303422"
     },
     {
       "id": 27,
@@ -316,23 +316,23 @@
       "mrp": 499,
       "price": 259,
       "discount": 30,
-      "img": "//cdn.shopify.com/s/files/1/0906/2558/products/sugar-cosmetics-kohl-of-honour-intense-kajal-05-go-green-dark-green-15027251642451.progressive.jpg?v=1599802881      "
+      "img": "https://cdn.shopify.com/s/files/1/0906/2558/products/sugar-cosmetics-kohl-of-honour-intense-kajal-05-go-green-dark-green-15027251642451.progressive.jpg?v=1599802881"
     },
     {
       "id": 28,
-      "title": "TWIST AND SHOUT FADEPROOF KAJAL- BLACK",
+      "title": "TWIST AND SHOUT KAJAL",
       "mrp": 499,
       "price": 399,
       "discount": 20,
-      "img": "//cdn.shopify.com/s/files/1/0906/2558/products/sugar-cosmetics-twist-and-shout-fadeproof-kajal-01-black-velvet-black-12771571433555.progressive.jpg?v=1587027093      "
+      "img": "https://cdn.shopify.com/s/files/1/0906/2558/products/sugar-cosmetics-twist-and-shout-fadeproof-kajal-01-black-velvet-black-12771571433555.progressive.jpg?v=1587027093"
     },
     {
       "id": 29,
-      "title": "ILLUMINATING MOISTURIZER + KOHL",
+      "title": "MOISTURIZER + KOHL",
       "mrp": 999,
       "price": 699,
       "discount": 30,
-      "img": "//cdn.shopify.com/s/files/1/0906/2558/products/sugar-cosmetics-illuminating-moisturizer-kohl-15350403825747.progressive.jpg?v=1605159455      "
+      "img": "https://cdn.shopify.com/s/files/1/0906/2558/products/sugar-cosmetics-illuminating-moisturizer-kohl-15350403825747.progressive.jpg?v=1605159455"
     },
     {
       "id": 30,
@@ -340,17 +340,17 @@
       "mrp": 799,
       "price": 499,
       "discount": 25,
-      "img": "//cdn.shopify.com/s/files/1/0906/2558/products/sugar-cosmetics-eyeliner-kohl-value-set-14821476859987.progressive.jpg?v=1596801792      "
+      "img": "https://cdn.shopify.com/s/files/1/0906/2558/products/sugar-cosmetics-eyeliner-kohl-value-set-14821476859987.progressive.jpg?v=1596801792"
     }
   ],
   "combined": [
     {
       "id": 1,
-      "title": "SMUDGE ME NOT LIQUID LIPSTICK",
+      "title": "SMUDGE ME NOT LIPSTICK",
       "mrp": 799,
       "price": 549,
       "discount": 21,
-      "img": "//cdn.shopify.com/s/files/1/0906/2558/products/sugar-cosmetics-smudge-me-not-liquid-lipstick-15384035524691.progressive.jpg?v=1605777756"
+      "img": "https://cdn.shopify.com/s/files/1/0906/2558/products/sugar-cosmetics-mettle-matte-lipstick-01-athena-red-terracotta-13200497737811.progressive.jpg?v=1577303422"
     },
     {
       "id": 2,
@@ -358,11 +358,11 @@
       "mrp": 999,
       "price": 599,
       "discount": 30,
-      "img": "//cdn.shopify.com/s/files/1/0906/2558/products/sugar-cosmetics-smudge-me-not-lip-duo-01-brazen-raisin-burgundy-13200661643347.progressive.jpg?v=1577305698      "
+      "img": "https://cdn.shopify.com/s/files/1/0906/2558/products/sugar-cosmetics-smudge-me-not-lip-duo-01-brazen-raisin-burgundy-13200661643347.progressive.jpg?v=1577305698"
     },
     {
       "id": 3,
-      "title": "SMUDGE ME NOT MINIS SET- BLACK",
+      "title": "SMUDGE ME NOT BLACK",
       "mrp": 589,
       "price": 459,
       "discount": 18,
@@ -374,7 +374,7 @@
       "mrp": 599,
       "price": 459,
       "discount": 20,
-      "img": "//cdn.shopify.com/s/files/1/0906/2558/products/sugar-cosmetics-plush-crush-creme-crayon-13974621519955.progressive.jpg?v=1580456731"
+      "img": "https://cdn.shopify.com/s/files/1/0906/2558/products/sugar-cosmetics-plush-crush-creme-crayon-13974621519955.progressive.jpg?v=1580456731"
     },
     {
       "id": 5,
@@ -382,7 +382,7 @@
       "mrp": 899,
       "price": 499,
       "discount": 30,
-      "img": "//cdn.shopify.com/s/files/1/0906/2558/products/sugar-cosmetics-mettle-matte-lipstick-01-athena-red-terracotta-13200497737811.progressive.jpg?v=1577303422"
+      "img": "https://cdn.shopify.com/s/files/1/0906/2558/products/sugar-cosmetics-mettle-matte-lipstick-01-athena-red-terracotta-13200497737811.progressive.jpg?v=1577303422"
     },
     {
       "id": 6,
@@ -410,11 +410,11 @@
     },
     {
       "id": 9,
-      "title": "NEVER SAY DRY CREME LIPSTICK",
+      "title": "DRY CREME LIPSTICK",
       "mrp": 899,
       "price": 649,
       "discount": 23,
-      "img": "//cdn.shopify.com/s/files/1/0906/2558/products/sugar-cosmetics-never-say-dry-creme-lipstick-6943253856339.png?v=1577298740      "
+      "img": "https://cdn.shopify.com/s/files/1/0906/2558/products/sugar-cosmetics-mettle-matte-lipstick-01-athena-red-terracotta-13200497737811.progressive.jpg?v=1577303422"
     },
     {
       "id": 10,
@@ -426,11 +426,11 @@
     },
     {
       "id": 11,
-      "title": "DROP THE BASE SERUM FOUNDATION",
+      "title": "BASE SERUM FOUNDATION",
       "mrp": 589,
       "price": 459,
       "discount": 20,
-      "img": "//cdn.shopify.com/s/files/1/0906/2558/products/sugar-cosmetics-drop-the-base-serum-foundation-10959991767123.progressive.jpg?v=1577270075"
+      "img": "https://cdn.shopify.com/s/files/1/0906/2558/products/sugar-cosmetics-drop-the-base-serum-foundation-10959991767123.progressive.jpg?v=1577270075"
     },
     {
       "id": 12,
@@ -438,39 +438,39 @@
       "mrp": 589,
       "price": 459,
       "discount": 20,
-      "img": "//cdn.shopify.com/s/files/1/0906/2558/products/sugar-cosmetics-power-clay-spf20-bb-cushion-05-blonde-latte-light-shade-with-neutral-undertone-14113897480275.progressive.jpg?v=1582638454      "
+      "img": "https://cdn.shopify.com/s/files/1/0906/2558/products/sugar-cosmetics-power-clay-spf20-bb-cushion-05-blonde-latte-light-shade-with-neutral-undertone-14113897480275.progressive.jpg?v=1582638454"
     },
     {
       "id": 13,
-      "title": "ALL SET TO GO TRANSLUCENT POWDER",
+      "title": "TRANSLUCENT POWDER",
       "mrp": 1299,
       "price": 899,
       "discount": 30,
-      "img": "//cdn.shopify.com/s/files/1/0906/2558/products/sugar-cosmetics-all-set-to-go-translucent-powder-12785059758163.progressive.jpg?v=1589216614      "
+      "img": "https://cdn.shopify.com/s/files/1/0906/2558/products/sugar-cosmetics-all-set-to-go-translucent-powder-12785059758163.progressive.jpg?v=1589216614"
     },
     {
       "id": 14,
-      "title": "SET THE TONED TINTED POWDER",
+      "title": "TONED TINTED POWDER",
       "mrp": 899,
       "price": 699,
       "discount": 23,
-      "img": "//cdn.shopify.com/s/files/1/0906/2558/products/sugar-cosmetics-set-the-tone-tinted-powder-10-latte-light-13444641390675.progressive.jpg?v=1577180577      "
+      "img": "https://cdn.shopify.com/s/files/1/0906/2558/products/sugar-cosmetics-set-the-tone-tinted-powder-10-latte-light-13444641390675.progressive.jpg?v=1577180577"
     },
     {
       "id": 15,
-      "title": "FACE FWD HIGHLIGHTER STICK",
+      "title": "FACE HIGHLIGHTER STICK",
       "mrp": 999,
       "price": 799,
       "discount": 20,
-      "img": "//cdn.shopify.com/s/files/1/0906/2558/products/sugar-cosmetics-face-fwd-highlighter-stick-01-champagne-champion-champagne-gold-13825399652435.progressive.jpg?v=1578511799      "
+      "img": "https://cdn.shopify.com/s/files/1/0906/2558/products/sugar-cosmetics-face-fwd-highlighter-stick-01-champagne-champion-champagne-gold-13825399652435.progressive.jpg?v=1578511799"
     },
     {
       "id": 16,
-      "title": "CONTOUR DE FORCE HIGHLIGHTER PALLETE",
+      "title": "CONTOUR DE FORCE PALLETE",
       "mrp": 889,
       "price": 799,
       "discount": 13,
-      "img": "//cdn.shopify.com/s/files/1/0906/2558/products/sugar-cosmetics-contour-de-force-highlighter-palette-01-glow-genius-12788198572115.progressive.jpg?v=1607617239 "
+      "img": "https://cdn.shopify.com/s/files/1/0906/2558/products/sugar-cosmetics-contour-de-force-highlighter-palette-01-glow-genius-12788198572115.progressive.jpg?v=1607617239"
     },
     {
       "id": 17,
@@ -478,31 +478,31 @@
       "mrp": 1499,
       "price": 1299,
       "discount": 20,
-      "img": "//cdn.shopify.com/s/files/1/0906/2558/products/sugar-cosmetics-foundation-stick-57-romano-foundation-stick-37-freddo-14839796138067.progressive.jpg?v=1597226623      "
+      "img": "https://cdn.shopify.com/s/files/1/0906/2558/products/sugar-cosmetics-foundation-stick-57-romano-foundation-stick-37-freddo-14839796138067.progressive.jpg?v=1597226623"
     },
     {
       "id": 18,
-      "title": "MAGIC WAND WATERPROOF CONCEALER",
+      "title": "MAGIC WATERPROOF CONCEALER",
       "mrp": 859,
       "price": 799,
       "discount": 17,
-      "img": "//cdn.shopify.com/s/files/1/0906/2558/products/sugar-cosmetics-magic-wand-waterproof-concealer-07-vanilla-latte-fair-golden-undertone-13278398611539.progressive.jpg?v=1577278822      "
+      "img": "https://cdn.shopify.com/s/files/1/0906/2558/products/sugar-cosmetics-magic-wand-waterproof-concealer-07-vanilla-latte-fair-golden-undertone-13278398611539.progressive.jpg?v=1577278822"
     },
     {
       "id": 19,
-      "title": "THE MOST ELIGIBLUR SMOOTHING PRIMER",
+      "title": "ELIGIBLUR SMOOTHING PRIMER",
       "mrp": 1399,
       "price": 1199,
       "discount": 22,
-      "img": "//cdn.shopify.com/s/files/1/0906/2558/products/sugar-cosmetics-the-most-eligiblur-smoothing-primer-13588736835667.progressive.jpg?v=1587374578      "
+      "img": "https://cdn.shopify.com/s/files/1/0906/2558/products/sugar-cosmetics-mettle-matte-lipstick-01-athena-red-terracotta-13200497737811.progressive.jpg?v=1577303422"
     },
     {
       "id": 20,
-      "title": "BASE OF GLORY PORE MINIMIZING PRIMER",
+      "title": "BASE OF GLORY PRIMER",
       "mrp": 999,
       "price": 799,
       "discount": 20,
-      "img": "//cdn.shopify.com/s/files/1/0906/2558/products/sugar-cosmetics-base-of-glory-pore-minimizing-primer-12774767624275.progressive.jpg?v=1611062037      "
+      "img": "https://cdn.shopify.com/s/files/1/0906/2558/products/sugar-cosmetics-base-of-glory-pore-minimizing-primer-12774767624275.progressive.jpg?v=1611062037"
     },
     {
       "id": 21,
@@ -510,47 +510,47 @@
       "mrp": 799,
       "price": 599,
       "discount": 18,
-      "img": "//cdn.shopify.com/s/files/1/0906/2558/products/sugar-cosmetics-born-to-wing-gel-eyeliner-01-blackmagic-woman-13271970283603.progressive.jpg?v=1577091941      "
+      "img": "https://cdn.shopify.com/s/files/1/0906/2558/products/sugar-cosmetics-born-to-wing-gel-eyeliner-01-blackmagic-woman-13271970283603.progressive.jpg?v=1577091941"
     },
     {
       "id": 22,
-      "title": "WINGMAN WATERPROOF MICROLINER-01",
+      "title": "WINGMAN MICROLINER-01",
       "mrp": 999,
       "price": 799,
       "discount": 20,
-      "img": "//cdn.shopify.com/s/files/1/0906/2558/products/sugar-cosmetics-wingman-waterproof-microliner-01-i-ll-be-black-black-14233683034195.progressive.jpg?v=1586497395      "
+      "img": "https://cdn.shopify.com/s/files/1/0906/2558/products/sugar-cosmetics-mettle-matte-lipstick-01-athena-red-terracotta-13200497737811.progressive.jpg?v=1577303422"
     },
     {
       "id": 23,
-      "title": "GRAPHIC JAM 36HR EYELINER BLACK",
+      "title": "JAM 36HR EYELINER BLACK",
       "mrp": 999,
       "price": 859,
       "discount": 15,
-      "img": "//cdn.shopify.com/s/files/1/0906/2558/products/sugar-cosmetics-graphic-jam-36hr-eyeliner-01-blackest-black-15278933278803.progressive.jpg?v=1603699288      "
+      "img": "https://cdn.shopify.com/s/files/1/0906/2558/products/sugar-cosmetics-graphic-jam-36hr-eyeliner-01-blackest-black-15278933278803.progressive.jpg?v=1603699288"
     },
     {
       "id": 24,
-      "title": "EYE DARED YOU SO! METALLIC EYELINER",
+      "title": "EYE DARED METALLIC EYELINER",
       "mrp": 699,
       "price": 499,
       "discount": 30,
-      "img": "//cdn.shopify.com/s/files/1/0906/2558/products/sugar-cosmetics-eye-dared-you-so-metallic-eyeliner-01-bronze-horseman-metallic-coppery-bronze-13272118165587.progressive.jpg?v=1577264543      "
+      "img": "https://cdn.shopify.com/s/files/1/0906/2558/products/sugar-cosmetics-eye-dared-you-so-metallic-eyeliner-01-bronze-horseman-metallic-coppery-bronze-13272118165587.progressive.jpg?v=1577264543"
     },
     {
       "id": 25,
-      "title": "UPTOWN CURL LENGTHENING MASCARA BLACK",
+      "title": "LENGTHENING MASCARA BLACK",
       "mrp": 999,
       "price": 499,
       "discount": 40,
-      "img": "//cdn.shopify.com/s/files/1/0906/2558/products/sugar-cosmetics-uptown-curl-lengthening-mascara-01-black-beauty-black-12775587676243.progressive.jpg?v=1587390666      "
+      "img": "https://cdn.shopify.com/s/files/1/0906/2558/products/sugar-cosmetics-mettle-matte-lipstick-01-athena-red-terracotta-13200497737811.progressive.jpg?v=1577303422"
     },
     {
       "id": 26,
-      "title": "LASH OF TITANS MASCARA BLACK",
+      "title": "LASH OF TITANS MASCARA ",
       "mrp": 999,
       "price": 599,
       "discount": 39,
-      "img": "//cdn.shopify.com/s/files/1/0906/2558/products/sugar-cosmetics-lash-of-titans-volumizing-mascara-01-black-with-a-bang-15702323920979.progressive.jpg?v=1611554000      "
+      "img": "https://cdn.shopify.com/s/files/1/0906/2558/products/sugar-cosmetics-kohl-lengthening-mascara-15350448160851_large.jpg?v=1620721080"
     },
     {
       "id": 27,
@@ -558,31 +558,31 @@
       "mrp": 499,
       "price": 259,
       "discount": 30,
-      "img": "//cdn.shopify.com/s/files/1/0906/2558/products/sugar-cosmetics-kohl-of-honour-intense-kajal-05-go-green-dark-green-15027251642451.progressive.jpg?v=1599802881      "
+      "img": "https://cdn.shopify.com/s/files/1/0906/2558/products/sugar-cosmetics-kohl-of-honour-intense-kajal-05-go-green-dark-green-15027251642451.progressive.jpg?v=1599802881"
     },
     {
       "id": 28,
-      "title": "TWIST AND SHOUT FADEPROOF KAJAL- BLACK",
+      "title": "FADEPROOF KAJAL- BLACK",
       "mrp": 499,
       "price": 399,
       "discount": 20,
-      "img": "//cdn.shopify.com/s/files/1/0906/2558/products/sugar-cosmetics-twist-and-shout-fadeproof-kajal-01-black-velvet-black-12771571433555.progressive.jpg?v=1587027093      "
+      "img": "https://cdn.shopify.com/s/files/1/0906/2558/products/sugar-cosmetics-twist-and-shout-fadeproof-kajal-01-black-velvet-black-12771571433555.progressive.jpg?v=1587027093"
     },
     {
       "id": 29,
-      "title": "ILLUMINATING MOISTURIZER + KOHL",
+      "title": "ILLUMINATING MOISTURIZER",
       "mrp": 999,
       "price": 699,
       "discount": 30,
-      "img": "//cdn.shopify.com/s/files/1/0906/2558/products/sugar-cosmetics-illuminating-moisturizer-kohl-15350403825747.progressive.jpg?v=1605159455      "
+      "img": "https://cdn.shopify.com/s/files/1/0906/2558/products/sugar-cosmetics-illuminating-moisturizer-kohl-15350403825747.progressive.jpg?v=1605159455"
     },
     {
       "id": 30,
-      "title": "EYELINER+ KOHL VALUE SET",
+      "title": "EYELINER+KOHL SET",
       "mrp": 799,
       "price": 499,
       "discount": 25,
-      "img": "//cdn.shopify.com/s/files/1/0906/2558/products/sugar-cosmetics-eyeliner-kohl-value-set-14821476859987.progressive.jpg?v=1596801792      "
+      "img": "https://cdn.shopify.com/s/files/1/0906/2558/products/sugar-cosmetics-eyeliner-kohl-value-set-14821476859987.progressive.jpg?v=1596801792"
     }
   ],
   "bannerAdds": [
@@ -611,56 +611,7 @@
       "img": "https://cdn.shopify.com/s/files/1/0906/2558/files/2499-Tile-Banner_11a697d0-3824-4d45-a5a0-c7c0f1c725ae.jpg?v=1612157081"
     }
   ],
-  "clearance": [
-    {
-      "id": 3,
-      "title": "SMUDGE ME NOT MINIS SET- BLACK",
-      "mrp": 589,
-      "price": 459,
-      "discount": 18,
-      "img": "https://cdn.shopify.com/s/files/1/0906/2558/products/sugar-cosmetics-smudge-me-not-minis-set-black-14964843151443.progressive.jpg?v=1611061746"
-    },
-    {
-      "id": 30,
-      "title": "EYELINER+ KOHL VALUE SET",
-      "mrp": 799,
-      "price": 499,
-      "discount": 25,
-      "img": "//cdn.shopify.com/s/files/1/0906/2558/products/sugar-cosmetics-eyeliner-kohl-value-set-14821476859987.progressive.jpg?v=1596801792      "
-    },
-    {
-      "id": 15,
-      "title": "FACE FWD HIGHLIGHTER STICK",
-      "mrp": 999,
-      "price": 799,
-      "discount": 20,
-      "img": "//cdn.shopify.com/s/files/1/0906/2558/products/sugar-cosmetics-face-fwd-highlighter-stick-01-champagne-champion-champagne-gold-13825399652435.progressive.jpg?v=1578511799      "
-    },
-    {
-      "id": 2,
-      "title": "SMUDGE ME NOT LIP DUO",
-      "mrp": 999,
-      "price": 599,
-      "discount": 30,
-      "img": "//cdn.shopify.com/s/files/1/0906/2558/products/sugar-cosmetics-smudge-me-not-lip-duo-01-brazen-raisin-burgundy-13200661643347.progressive.jpg?v=1577305698      "
-    },
-    {
-      "id": 24,
-      "title": "EYE DARED YOU SO! METALLIC EYELINER",
-      "mrp": 699,
-      "price": 499,
-      "discount": 30,
-      "img": "//cdn.shopify.com/s/files/1/0906/2558/products/sugar-cosmetics-eye-dared-you-so-metallic-eyeliner-01-bronze-horseman-metallic-coppery-bronze-13272118165587.progressive.jpg?v=1577264543      "
-    },
-    {
-      "id": 19,
-      "title": "THE MOST ELIGIBLUR SMOOTHING PRIMER",
-      "mrp": 1399,
-      "price": 1199,
-      "discount": 22,
-      "img": "//cdn.shopify.com/s/files/1/0906/2558/products/sugar-cosmetics-the-most-eligiblur-smoothing-primer-13588736835667.progressive.jpg?v=1587374578      "
-    }
-  ],
+ 
   "explore": [
     {
       "id": 1,
@@ -717,60 +668,20 @@
       "address": "15, Shanti Heights, Charlie Nagar Mumbai - 277811"
     },
     {
-      "id": 665912,
-      "name": "Kevin Brown",
-      "email": "kevin@mail.com",
-      "password": "kevin123",
-      "number": "9352528700",
-      "address": "80 Grimes Close, Idaville, Northland, 5412"
-    },
-    {
-      "name": "Rick Martin",
-      "email": "rick@example.com",
-      "number": "897412564",
-      "address": "716  Beechwood Drive, Pittsburgh, PA",
-      "password": "rick@1234",
-      "id": 893213
-    },
-    {
-      "name": "Lenore B Gilchrist",
-      "email": "lenore@mail.com",
-      "number": "9517797030",
-      "address": "1837  Murphy Court, Riverside, CA",
-      "password": "lenore@1234",
-      "id": 893214
-    },
-    {
-      "name": "Carol M Eason",
-      "email": "carol@example.com",
-      "number": "2177786266",
-      "address": "2708  Spring Street, Champaign, IL",
-      "password": "91aos0ffzeu@temporary-mail.net",
-      "id": 893215
-    },
-    {
-      "name": "Lou A Stone",
-      "email": "dafwwul5kco@temporary-mail.net",
-      "number": "9163200995",
-      "address": "1546  Pearl Street, CA",
-      "password": "lou@1234",
-      "id": 893216
-    },
-    {
-      "name": "Adele B Tomasini",
-      "email": "adele@gmail.com",
-      "number": "7896541025",
-      "address": "2274  Spinnaker Lane, Fairbury, IL",
-      "password": "adele@1234",
-      "id": 893217
-    },
-    {
       "name": "Vinesh Nair",
       "email": "vinesh.nair31@gmail.com",
       "number": "857412563",
       "address": "747  Ben Street. Grand Rapids, MI",
       "password": "qwert1234",
       "id": 893218
+    },
+    {
+      "name": "Lokesh Nimje",
+      "email": "lokesh.nimje@gmail.com",
+      "number": "7415210938",
+      "address": "91 Springboard Bangalore",
+      "password": "lks123",
+      "id": 893219
     }
   ]
 }

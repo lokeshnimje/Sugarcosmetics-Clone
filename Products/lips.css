@@ -748,16 +748,33 @@ display: none;
 
 .wishListPopUp{
     display: flex;
+    justify-content: space-evenly;
 }
 
 .wishListPopUp>i{
-    width: 20%;
+    width: fit-content;
     height: 100%;
     font-size: 45px;
     margin-top: 3%;
-    color: green;
+    color: red;
 }
 
 .wishListPopUp>p{
+    font-size: 19px;
+}
+.cartPopUp{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.cartPopUp>i{
+    width: fit-content;
+    height: 100%;
+    font-size: 45px;
+    margin-top: 3%;
+    color: rgb(0, 132, 255);
+}
+
+.cartPopUp>p{
     font-size: 19px;
 }

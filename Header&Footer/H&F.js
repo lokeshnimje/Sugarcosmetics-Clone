@@ -58,12 +58,12 @@ function getFeaData(){
         count++
         if(count>3){
             document.getElementById("diaplayFData").innerHTML = loader
-            fetch(`https://sugarcosmeticsdb.herokuapp.com/featured?_page=1&_limit=4`).then(res => res.json()).then(data => displayData(data)).catch((Error) => console.log(Error))
+            fetch(`https://sugarcosmeticsdb1.herokuapp.com/featured?_page=1&_limit=4`).then(res => res.json()).then(data => displayData(data)).catch((Error) => console.log(Error))
             count = 1
         }
         else{
             document.getElementById("diaplayFData").innerHTML = loader
-            fetch(`https://sugarcosmeticsdb.herokuapp.com/featured?_page=${count}&_limit=4`).then(res => res.json()).then(data => displayData(data)).catch((Error) => console.log(Error))
+            fetch(`https://sugarcosmeticsdb1.herokuapp.com/featured?_page=${count}&_limit=4`).then(res => res.json()).then(data => displayData(data)).catch((Error) => console.log(Error))
         }
     })
 
@@ -71,17 +71,17 @@ function getFeaData(){
         count--
         if(count == 1 || count < 1){
             document.getElementById("diaplayFData").innerHTML = loader
-            fetch(`https://sugarcosmeticsdb.herokuapp.com/featured?_page=1&_limit=4`).then(res => res.json()).then(data => displayData(data)).catch((Error) => console.log(Error))
+            fetch(`https://sugarcosmeticsdb1.herokuapp.com/featured?_page=1&_limit=4`).then(res => res.json()).then(data => displayData(data)).catch((Error) => console.log(Error))
             count = 1
         }
         else{
             document.getElementById("diaplayFData").innerHTML = loader
-            fetch(`https://sugarcosmeticsdb.herokuapp.com/featured?_page=${count}&_limit=4`).then(res => res.json()).then(data => displayData(data)).catch((Error) => console.log(Error))
+            fetch(`https://sugarcosmeticsdb1.herokuapp.com/featured?_page=${count}&_limit=4`).then(res => res.json()).then(data => displayData(data)).catch((Error) => console.log(Error))
         }
     })
 
     document.getElementById("diaplayFData").innerHTML = loader
-    fetch(`https://sugarcosmeticsdb.herokuapp.com/featured?_page=1&_limit=4`).then(res => res.json()).then(data => displayData(data)).catch((Error) => console.log(Error))
+    fetch(`https://sugarcosmeticsdb1.herokuapp.com/featured?_page=1&_limit=4`).then(res => res.json()).then(data => displayData(data)).catch((Error) => console.log(Error))
 }
 
 function displayData(data){
@@ -94,22 +94,21 @@ function displayData(data){
         // console.log(data)
         html += `                
         <div class="displayCard" id=${data[i].id} >
-            <div class="productImageF"><img class="img" src="${img}" alt="image"></div>
-            <div class="productTitle" id=${data[i].id} onClick="testClick(this)"><label id="titleUnderline">${title}</label></div>
-            <div class="prod_detail" id="${data[i].id}" onClick="viewProductModal(this)"><i class="fas fa-search-plus"></i></div>
-            <div class="productFinalSalePrice">
-                <div class="productActualPrice"><label id="priceStriked">Rs. ${mrp}</label></div>
-                <div class="productSalePrice"><b>Rs. ${price} </b></div>
-            </div>
-            <div class="addBtns">
+            <div class="prod_detail" id="${data[i].id}"onclick="addToWishList(this)"><i class="far fa-heart"></i></div>
+            <div class="productImageF" id="${data[i].id}" onClick="viewProductModal(this)"><img class="img" src="${img}" alt="image"></div>
+            <div class="textDetails">
+                <div class="productTitle" id=${data[i].id} onClick="testClick(this)"><label id="titleUnderline">${title}</label></div>
+                <div class="productFinalSalePrice">
+                    <div class="productActualPrice"><label id="priceStriked">Rs. ${mrp}</label></div>
+                    <div class="productSalePrice"><b>Rs. ${price} </b></div>
+                </div>
                 <button data-id="${data[i].id}" onclick="settols(this)" class="cart1">Add to Cart</button>
-                <button id="${data[i].id}" onclick="addToWishList(this)" class="cart1">Add to Wishlist</button>
             </div>
         </div>`
-        
-        document.getElementById("diaplayFData").innerHTML = html
+            
+            document.getElementById("diaplayFData").innerHTML = html
+        }
     }
-}
 
 
 //---------------------------------------Featured pagination ends here-------------------------------------------//
@@ -117,7 +116,7 @@ function displayData(data){
 //---------------------------------------Add to wishList starts here-------------------------------------------//
 function addToWishList(pID){
     let id = pID.id
-    fetch(`https://sugarcosmeticsdb.herokuapp.com/combined?id=${id}`).then(res => res.json()).then(data => addToWishListLS(data)).catch((Error) => console.log(Error))
+    fetch(`https://sugarcosmeticsdb1.herokuapp.com/combined?id=${id}`).then(res => res.json()).then(data => addToWishListLS(data)).catch((Error) => console.log(Error))
 
     function addToWishListLS(val){
         let id = val[0].id
@@ -142,7 +141,7 @@ function addToWishList(pID){
         let modalW = document.getElementById("myModalW");
         let spanW = document.getElementsByClassName("closeW")[0];
         modalW.style.display = "block"; 
-        html += `<div class="wishListPopUp"><i class="far fa-check-circle"></i><p>Item added to Wishlist</p></div>`
+        html += `<div class="wishListPopUp"><p>Item added to Wishlist</p><i class="fas fa-heart"></i></div>`
         document.getElementById("wishListPopUpData").innerHTML = html
         spanW.onclick = function() {
             modalW.style.display = "none";
@@ -159,7 +158,7 @@ function addToWishList(pID){
 function viewProductModal(pID){
     let id = pID.id
     console.log(id)
-    fetch(`https://sugarcosmeticsdb.herokuapp.com/combined?id=${id}`).then(res => res.json()).then(data => diaplayModalData(data)).catch((Error) => console.log(Error))
+    fetch(`https://sugarcosmeticsdb1.herokuapp.com/combined?id=${id}`).then(res => res.json()).then(data => diaplayModalData(data)).catch((Error) => console.log(Error))
 }
 
 function diaplayModalData(val){
@@ -254,7 +253,7 @@ function testClick(elem){
     let id = elem.id
     // console.log(id)
 
-    fetch(`https://sugarcosmeticsdb.herokuapp.com/combined?id=${id}`).then(res => res.json()).then(data => sendDataParms(data)).catch((Error) => console.log(Error))
+    fetch(`https://sugarcosmeticsdb1.herokuapp.com/combined?id=${id}`).then(res => res.json()).then(data => sendDataParms(data)).catch((Error) => console.log(Error))
 
     function sendDataParms(val){
         let id = val[0].id
@@ -281,7 +280,7 @@ let arr = []
 function settols(e){
     // console.log("object")
     let id = e.getAttribute("data-id")
-    fetch(`https://sugarcosmeticsdb.herokuapp.com/combined?id=${id}`).then(res => res.json()).then(data => AddToLSFromHp(data)).catch((Error) => console.log(Error))
+    fetch(`https://sugarcosmeticsdb1.herokuapp.com/combined?id=${id}`).then(res => res.json()).then(data => AddToLSFromHp(data)).catch((Error) => console.log(Error))
 }
 
 function AddToLSFromHp(data){   
@@ -305,7 +304,7 @@ function AddToLSFromHp(data){
     let modalW = document.getElementById("myModalW");
     let spanW = document.getElementsByClassName("closeW")[0];
     modalW.style.display = "block"; 
-    html += `<div class="wishListPopUp"><i class="far fa-check-circle"></i><p>Item added to Cart</p></div>`
+    html += `<div class="cartPopUp"><p>Item added to Cart</p><i class="fas fa-shopping-cart"></i></div>`
     document.getElementById("wishListPopUpData").innerHTML = html
     spanW.onclick = function() {
         modalW.style.display = "none";
@@ -328,12 +327,12 @@ function getJustInData(){
         count++
         if(count>8){
             document.getElementById("diaplayJustInData").innerHTML = loader
-            fetch(`https://sugarcosmeticsdb.herokuapp.com/combined?_page=1&_limit=4`).then(res => res.json()).then(data => displayJustInData(data)).catch((Error) => console.log(Error))
+            fetch(`https://sugarcosmeticsdb1.herokuapp.com/combined?_page=1&_limit=4`).then(res => res.json()).then(data => displayJustInData(data)).catch((Error) => console.log(Error))
             count = 1
         }
         else{
             document.getElementById("diaplayJustInData").innerHTML = loader
-            fetch(`https://sugarcosmeticsdb.herokuapp.com/combined?_page=${count}&_limit=4`).then(res => res.json()).then(data => displayJustInData(data)).catch((Error) => console.log(Error))
+            fetch(`https://sugarcosmeticsdb1.herokuapp.com/combined?_page=${count}&_limit=4`).then(res => res.json()).then(data => displayJustInData(data)).catch((Error) => console.log(Error))
         }
     })
 
@@ -341,16 +340,16 @@ function getJustInData(){
         count--
         if(count == 1 || count < 1){
             document.getElementById("diaplayJustInData").innerHTML = loader
-            fetch(`https://sugarcosmeticsdb.herokuapp.com/combined?_page=1&_limit=4`).then(res => res.json()).then(data => displayJustInData(data)).catch((Error) => console.log(Error))
+            fetch(`https://sugarcosmeticsdb1.herokuapp.com/combined?_page=1&_limit=4`).then(res => res.json()).then(data => displayJustInData(data)).catch((Error) => console.log(Error))
             count = 1
         }
         else{
             document.getElementById("diaplayJustInData").innerHTML = loader
-            fetch(`https://sugarcosmeticsdb.herokuapp.com/combined?_page=${count}&_limit=4`).then(res => res.json()).then(data => displayJustInData(data)).catch((Error) => console.log(Error))
+            fetch(`https://sugarcosmeticsdb1.herokuapp.com/combined?_page=${count}&_limit=4`).then(res => res.json()).then(data => displayJustInData(data)).catch((Error) => console.log(Error))
         }
     })
     document.getElementById("diaplayJustInData").innerHTML = loader
-    fetch(`https://sugarcosmeticsdb.herokuapp.com/combined?_page=1&_limit=4`).then(res => res.json()).then(data => displayJustInData(data)).catch((Error) => console.log(Error))
+    fetch(`https://sugarcosmeticsdb1.herokuapp.com/combined?_page=1&_limit=4`).then(res => res.json()).then(data => displayJustInData(data)).catch((Error) => console.log(Error))
 }
 
 function displayJustInData(data){
@@ -362,19 +361,18 @@ function displayJustInData(data){
         let price = data[i].price
         // console.log(data)
         Jhtml += `                
-        <div class="displayCard" id=${data[i].id} onmouseover="showItemsOnCard(this)" onmouseout="removeItemsOnCard(this)">
-            <div class="productImage"><img class="img" src="${img}" alt=""></div>
+        <div class="displayCard" id=${data[i].id} >
+        <div class="prod_detail" id="${data[i].id}"onclick="addToWishList(this)"><i class="far fa-heart"></i></div>
+        <div class="productImageF" id="${data[i].id}" onClick="viewProductModal(this)"><img class="img" src="${img}" alt="image"></div>
+        <div class="textDetails">
             <div class="productTitle" id=${data[i].id} onClick="testClick(this)"><label id="titleUnderline">${title}</label></div>
-            <div class="prod_detail" id="${data[i].id}" onClick="viewProductModal(this)"><i class="fas fa-search-plus"></i></div>
             <div class="productFinalSalePrice">
                 <div class="productActualPrice"><label id="priceStriked">Rs. ${mrp}</label></div>
-                <div class="productSalePrice">Rs. ${price}</div>
+                <div class="productSalePrice"><b>Rs. ${price} </b></div>
             </div>
-            <div class="addBtns">
-                <button data-id="${data[i].id}" onclick="settols(this)" class="cart1">Add to Cart</button>
-                <button id="${data[i].id}" onclick="addToWishList(this)" class="cart1">Add to Wishlist</button>
-            </div>
-        </div>`
+            <button data-id="${data[i].id}" onclick="settols(this)" class="cart1">Add to Cart</button>
+        </div>
+     </div>`
         
         document.getElementById("diaplayJustInData").innerHTML = Jhtml
     }
@@ -391,12 +389,12 @@ function getSkincareData(){
         count++
         if(count>3){
             document.getElementById("diaplaySkincareData").innerHTML = loader
-            fetch(`https://sugarcosmeticsdb.herokuapp.com/skin?_page=1&_limit=4`).then(res => res.json()).then(data => displaySkincareData(data)).catch((Error) => console.log(Error))
+            fetch(`https://sugarcosmeticsdb1.herokuapp.com/skin?_page=1&_limit=4`).then(res => res.json()).then(data => displaySkincareData(data)).catch((Error) => console.log(Error))
             count = 1
         }
         else{
             document.getElementById("diaplaySkincareData").innerHTML = loader
-            fetch(`https://sugarcosmeticsdb.herokuapp.com/skin?_page=${count}&_limit=4`).then(res => res.json()).then(data => displaySkincareData(data)).catch((Error) => console.log(Error))
+            fetch(`https://sugarcosmeticsdb1.herokuapp.com/skin?_page=${count}&_limit=4`).then(res => res.json()).then(data => displaySkincareData(data)).catch((Error) => console.log(Error))
         }
     })
 
@@ -404,16 +402,16 @@ function getSkincareData(){
         count--
         if(count == 1 || count < 1){
             document.getElementById("diaplaySkincareData").innerHTML = loader
-            fetch(`https://sugarcosmeticsdb.herokuapp.com/skin?_page=1&_limit=4`).then(res => res.json()).then(data => displaySkincareData(data)).catch((Error) => console.log(Error))
+            fetch(`https://sugarcosmeticsdb1.herokuapp.com/skin?_page=1&_limit=4`).then(res => res.json()).then(data => displaySkincareData(data)).catch((Error) => console.log(Error))
             count = 1
         }
         else{
             document.getElementById("diaplaySkincareData").innerHTML = loader
-            fetch(`https://sugarcosmeticsdb.herokuapp.com/skin?_page=${count}&_limit=4`).then(res => res.json()).then(data => displaySkincareData(data)).catch((Error) => console.log(Error))
+            fetch(`https://sugarcosmeticsdb1.herokuapp.com/skin?_page=${count}&_limit=4`).then(res => res.json()).then(data => displaySkincareData(data)).catch((Error) => console.log(Error))
         }
     })
     document.getElementById("diaplaySkincareData").innerHTML = loader
-    fetch(`https://sugarcosmeticsdb.herokuapp.com/skin?_page=1&_limit=4`).then(res => res.json()).then(data => displaySkincareData(data)).catch((Error) => console.log(Error))
+    fetch(`https://sugarcosmeticsdb1.herokuapp.com/skin?_page=1&_limit=4`).then(res => res.json()).then(data => displaySkincareData(data)).catch((Error) => console.log(Error))
 }
 
 function displaySkincareData(data){
@@ -425,19 +423,21 @@ function displaySkincareData(data){
         let price = data[i].price
         // console.log(data)
         Jhtml += `                
-        <div class="displayCard" id=${data[i].id} onmouseover="showItemsOnCard(this)" onmouseout="removeItemsOnCard(this)">
-            <div class="productImage"><img class="img" src="${img}" alt=""></div>
+        <div class="displayCard" id=${data[i].id} >
+        <div class="prod_detail" id="${data[i].id}"onclick="addToWishList(this)"><i class="far fa-heart"></i></div>
+        <div class="productImageF" id="${data[i].id}" onClick="viewProductModal(this)"><img class="img" src="${img}" alt="image"></div>
+        <div class="textDetails">
             <div class="productTitle" id=${data[i].id} onClick="testClick(this)"><label id="titleUnderline">${title}</label></div>
-            <div class="prod_detail" id="${data[i].id}" onClick="viewProductModal(this)"><i class="fas fa-search-plus"></i></div>
             <div class="productFinalSalePrice">
                 <div class="productActualPrice"><label id="priceStriked">Rs. ${mrp}</label></div>
-                <div class="productSalePrice">Rs. ${price}</div>
+                <div class="productSalePrice"><b>Rs. ${price} </b></div>
             </div>
-            <div class="addBtns">
-                <button data-id="${data[i].id}" onclick="settols(this)" class="cart1">Add to Cart</button>
-                <button id="${data[i].id}" onclick="addToWishList(this)" class="cart1">Add to Wishlist</button>
-            </div>
-        </div>`
+            <button data-id="${data[i].id}" onclick="settols(this)" class="cart1">Add to Cart</button>
+        </div>
+    </div>`
+        
+
+        
         
         document.getElementById("diaplaySkincareData").innerHTML = Jhtml
     }
@@ -454,12 +454,12 @@ function getExploreData(){
         count++
         if(count>2){
             document.getElementById("diaplayExpolreData").innerHTML = loader
-            fetch(`https://sugarcosmeticsdb.herokuapp.com/explore?_page=1&_limit=5`).then(res => res.json()).then(data => displayExploreData(data)).catch((Error) => console.log(Error))
+            fetch(`https://sugarcosmeticsdb1.herokuapp.com/explore?_page=1&_limit=5`).then(res => res.json()).then(data => displayExploreData(data)).catch((Error) => console.log(Error))
             count = 1
         }
         else{
             document.getElementById("diaplayExpolreData").innerHTML = loader
-            fetch(`https://sugarcosmeticsdb.herokuapp.com/explore?_page=${count}&_limit=5`).then(res => res.json()).then(data => displayExploreData(data)).catch((Error) => console.log(Error))
+            fetch(`https://sugarcosmeticsdb1.herokuapp.com/explore?_page=${count}&_limit=5`).then(res => res.json()).then(data => displayExploreData(data)).catch((Error) => console.log(Error))
         }
     })
 
@@ -467,17 +467,17 @@ function getExploreData(){
         count--
         if(count == 1 || count < 1){
             document.getElementById("diaplayExpolreData").innerHTML = loader
-            fetch(`https://sugarcosmeticsdb.herokuapp.com/explore?_page=1&_limit=5`).then(res => res.json()).then(data => displayExploreData(data)).catch((Error) => console.log(Error))
+            fetch(`https://sugarcosmeticsdb1.herokuapp.com/explore?_page=1&_limit=5`).then(res => res.json()).then(data => displayExploreData(data)).catch((Error) => console.log(Error))
             count = 1
         }
         else{
             document.getElementById("diaplayExpolreData").innerHTML = loader
-            fetch(`https://sugarcosmeticsdb.herokuapp.com/explore?_page=${count}&_limit=5`).then(res => res.json()).then(data => displayExploreData(data)).catch((Error) => console.log(Error))
+            fetch(`https://sugarcosmeticsdb1.herokuapp.com/explore?_page=${count}&_limit=5`).then(res => res.json()).then(data => displayExploreData(data)).catch((Error) => console.log(Error))
         }
     })
 
     document.getElementById("diaplayExpolreData").innerHTML = loader
-    fetch(`https://sugarcosmeticsdb.herokuapp.com/explore?_page=1&_limit=5`).then(res => res.json()).then(data => displayExploreData(data)).catch((Error) => console.log(Error))
+    fetch(`https://sugarcosmeticsdb1.herokuapp.com/explore?_page=1&_limit=5`).then(res => res.json()).then(data => displayExploreData(data)).catch((Error) => console.log(Error))
 }
 
 function displayExploreData(data){
@@ -505,9 +505,9 @@ function liveSearch(e){
 }
 
 function extractItems(val){ 
-    let data = val
+    // let data = val
     document.getElementById("midDisplay").innerHTML = loader
-    fetch(`https://sugarcosmeticsdb.herokuapp.com/combined/?q=${data}`).then(res => res.json()).then(Sdata => displaySearchData(Sdata, val)).catch((Error) => console.log(Error))
+    fetch(`https://sugarcosmeticsdb1.herokuapp.com/combined/?q=${val}`).then(res => res.json()).then(Sdata => displaySearchData(Sdata, val)).catch((Error) => console.log(Error))
 }
 
 function displaySearchData(Sdata, val){
@@ -549,7 +549,7 @@ function displaySearchData(Sdata, val){
 //---------------------------------------mid Ads banner starts here-------------------------------------------//
 window.addEventListener('load', function(){
     document.getElementById("display__Adds").innerHTML = loader
-    fetch('https://sugarcosmeticsdb.herokuapp.com/bannerAdds').then(res => res.json()).then(data => displayAddsBanner(data)).catch((Error) => console.log(Error))
+    fetch('https://sugarcosmeticsdb1.herokuapp.com/bannerAdds').then(res => res.json()).then(data => displayAddsBanner(data)).catch((Error) => console.log(Error))
 })
 
 function displayAddsBanner(data){
@@ -570,7 +570,7 @@ function displayAddsBanner(data){
 //---------------------------------------clearance div starts here-------------------------------------------//
 window.addEventListener('load', function(){
     document.getElementById("display__Clearance__page").innerHTML = loader
-    fetch('https://sugarcosmeticsdb.herokuapp.com/clearance').then(res => res.json()).then(data => displayClearance(data)).catch((Error) => console.log(Error))
+    fetch('https://sugarcosmeticsdb1.herokuapp.com/clearance').then(res => res.json()).then(data => displayClearance(data)).catch((Error) => console.log(Error))
 })
 
 function displayClearance(data){
@@ -582,19 +582,18 @@ function displayClearance(data){
         let price = data[i].price
         // console.log(data)
         Chtml += `                
-        <div class="displayCard" id=${data[i].id} onmouseover="showItemsOnCard(this)" onmouseout="removeItemsOnCard(this)">
-            <div class="productImage"><img class="img" src="${img}" alt=""></div>
+        <div class="displayCard" id=${data[i].id} >
+        <div class="prod_detail" id="${data[i].id}"onclick="addToWishList(this)"><i class="far fa-heart"></i></div>
+        <div class="productImageF" id="${data[i].id}" onClick="viewProductModal(this)"><img class="img" src="${img}" alt="image"></div>
+        <div class="textDetails">
             <div class="productTitle" id=${data[i].id} onClick="testClick(this)"><label id="titleUnderline">${title}</label></div>
-            <div class="prod_detail" id="${data[i].id}" onClick="viewProductModal(this)"><i class="fas fa-search-plus"></i></div>
             <div class="productFinalSalePrice">
                 <div class="productActualPrice"><label id="priceStriked">Rs. ${mrp}</label></div>
-                <div class="productSalePrice">Rs. ${price}</div>
+                <div class="productSalePrice"><b>Rs. ${price} </b></div>
             </div>
-            <div class="addBtns">
-                <button data-id="${data[i].id}" onclick="settols(this)" class="cart1">Add to Cart</button>
-                <button id="${data[i].id}" onclick="addToWishList(this)" class="cart1">Add to Wishlist</button>
-            </div>
-        </div>`
+            <button data-id="${data[i].id}" onclick="settols(this)" class="cart1">Add to Cart</button>
+        </div>
+    </div>`
         
         document.getElementById("display__Clearance__page").innerHTML = Chtml
     }
@@ -846,7 +845,7 @@ async function getResData(){
         password
     }
 
-    await fetch(`https://sugarcosmeticsdb.herokuapp.com/users`, {
+    await fetch(`https://sugarcosmeticsdb1.herokuapp.com/users`, {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
@@ -875,7 +874,7 @@ function getAuthCheckData(){
 
 function getAPIData(data){
     let userData = data
-    fetch(`https://sugarcosmeticsdb.herokuapp.com/users`).then(res => res.json()).then(data => authCheck(data, userData)).catch((error) => console.log(error))
+    fetch(`https://sugarcosmeticsdb1.herokuapp.com/users`).then(res => res.json()).then(data => authCheck(data, userData)).catch((error) => console.log(error))
 }
 
 function authCheck(data, userData){

@@ -15,7 +15,7 @@ let list = document.getElementById("list").addEventListener("click",getItemlist)
         let main1 = document.getElementById("main")
         let main2 = document.getElementById("main2")
         function getItem(){
-            let url = `https://sugarcosmeticsdb.herokuapp.com/lips`
+            let url = `https://sugarcosmeticsdb1.herokuapp.com/lips`
 
             let xhr = new XMLHttpRequest()
             xhr.open('GET', url)
@@ -164,7 +164,7 @@ function removeItems(e){
         let modalW = document.getElementById("myModalW");
         let spanW = document.getElementsByClassName("closeW")[0];
         modalW.style.display = "block"; 
-        html += `<div class="wishListPopUp"><i class="far fa-check-circle"></i><p>Item added to Cart</p></div>`
+        html += `<div class="cartPopUp"><p>Item added to Cart</p><i class="fas fa-shopping-cart"></i></div>`
         document.getElementById("wishListPopUpData").innerHTML = html
         spanW.onclick = function() {
             modalW.style.display = "none";
@@ -186,7 +186,7 @@ function removeItems(e){
         // console.log(id)
         let sort=document.getElementById("select").value
         if( sort === "Price, low to high"){
-            let url = `https://sugarcosmeticsdb.herokuapp.com/lips?_sort=price&_order=asc`
+            let url = `https://sugarcosmeticsdb1.herokuapp.com/lips?_sort=price&_order=asc`
 
             let xhr = new XMLHttpRequest()
             xhr.open('GET', url)
@@ -231,7 +231,7 @@ function removeItems(e){
             xhr.send()
         }
         else if (sort === "Price, high to low"){
-            let url = `https://sugarcosmeticsdb.herokuapp.com/lips?_sort=price&_order=desc`
+            let url = `https://sugarcosmeticsdb1.herokuapp.com/lips?_sort=price&_order=desc`
 
             let xhr = new XMLHttpRequest()
             xhr.open('GET', url)
@@ -282,7 +282,7 @@ function removeItems(e){
 
 function addToWishList(e){
     let id = e.getAttribute("data-id")
-    fetch(`https://sugarcosmeticsdb.herokuapp.com/combined?id=${id}`).then(res => res.json()).then(data => addToWishListLS(data)).catch((Error) => console.log(Error))
+    fetch(`https://sugarcosmeticsdb1.herokuapp.com/combined?id=${id}`).then(res => res.json()).then(data => addToWishListLS(data)).catch((Error) => console.log(Error))
     console.log(id)
 
     function addToWishListLS(val){
@@ -309,7 +309,7 @@ function addToWishList(e){
         let modalW = document.getElementById("myModalW");
         let spanW = document.getElementsByClassName("closeW")[0];
         modalW.style.display = "block"; 
-        html += `<div class="wishListPopUp"><i class="far fa-check-circle"></i><p>Item added to Wishlist</p></div>`
+        html += `<div class="wishListPopUp"><p>Item added to Wishlist</p><i class="fas fa-heart"></div>`
         document.getElementById("wishListPopUpData").innerHTML = html
         spanW.onclick = function() {
             modalW.style.display = "none";
@@ -329,7 +329,7 @@ function addToWishList(e){
 function viewProductModal(e){
     let id = e.getAttribute("data-id")
     console.log(id)
-    fetch(`https://sugarcosmeticsdb.herokuapp.com/combined?id=${id}`).then(res => res.json()).then(data => diaplayModalData(data)).catch((Error) => console.log(Error))
+    fetch(`https://sugarcosmeticsdb1.herokuapp.com/combined?id=${id}`).then(res => res.json()).then(data => diaplayModalData(data)).catch((Error) => console.log(Error))
 }
 
 function diaplayModalData(val){

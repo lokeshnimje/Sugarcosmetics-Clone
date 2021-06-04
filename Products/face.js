@@ -15,7 +15,7 @@ let list = document.getElementById("list").addEventListener("click",getItemlist)
         let main1 = document.getElementById("main")
         let main2 = document.getElementById("main2")
         function getItem(){
-            let url = `https://sugarcosmeticsdb.herokuapp.com/skin`
+            let url = `https://sugarcosmeticsdb1.herokuapp.com/skin`
 
             let xhr = new XMLHttpRequest()
             xhr.open('GET', url)
@@ -170,7 +170,7 @@ function removeItems(e){
         // console.log(id)
         let sort=document.getElementById("select").value
         if( sort === "Price, low to high"){
-            let url = `https://sugarcosmeticsdb.herokuapp.com/skin?_sort=price&_order=asc`
+            let url = `https://sugarcosmeticsdb1.herokuapp.com/skin?_sort=price&_order=asc`
 
             let xhr = new XMLHttpRequest()
             xhr.open('GET', url)
@@ -215,7 +215,7 @@ function removeItems(e){
             xhr.send()
         }
         else if (sort === "Price, high to low"){
-            let url = `https://sugarcosmeticsdb.herokuapp.com/skin?_sort=price&_order=desc`
+            let url = `https://sugarcosmeticsdb1.herokuapp.com/skin?_sort=price&_order=desc`
 
             let xhr = new XMLHttpRequest()
             xhr.open('GET', url)
@@ -266,7 +266,7 @@ function removeItems(e){
 
 function addToWishList(e){
     let id = e.getAttribute("data-id")
-    fetch(`https://sugarcosmeticsdb.herokuapp.com/combined?id=${id}`).then(res => res.json()).then(data => addToWishListLS(data)).catch((Error) => console.log(Error))
+    fetch(`https://sugarcosmeticsdb1.herokuapp.com/combined?id=${id}`).then(res => res.json()).then(data => addToWishListLS(data)).catch((Error) => console.log(Error))
     console.log(id)
 
     function addToWishListLS(val){
@@ -298,7 +298,7 @@ function addToWishList(e){
 function viewProductModal(e){
     let id = e.getAttribute("data-id")
     console.log(id)
-    fetch(`https://sugarcosmeticsdb.herokuapp.com/combined?id=${id}`).then(res => res.json()).then(data => diaplayModalData(data)).catch((Error) => console.log(Error))
+    fetch(`https://sugarcosmeticsdb1.herokuapp.com/combined?id=${id}`).then(res => res.json()).then(data => diaplayModalData(data)).catch((Error) => console.log(Error))
 }
 
 function diaplayModalData(val){

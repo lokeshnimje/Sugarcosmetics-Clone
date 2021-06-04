@@ -71,6 +71,7 @@ function showWishlistData(data){
 let cart_products = JSON.parse(localStorage.getItem('cart-products')) || []
 
 function add(event) {
+    let id = event.id
     event.textContent = "ADDED "
     event.style.backgroundColor ="green"
 
@@ -84,6 +85,7 @@ function add(event) {
     }
     
     localStorage.setItem("cart-products", JSON.stringify(cart_products))
+    // delet(Number(id))
 }
 
 let temp = JSON.parse(localStorage.getItem('add-wishlist'))
@@ -91,6 +93,7 @@ localStorage.setItem('temp_wish', JSON.stringify(temp))
 
 // delete particular item from list
 function delet(did){
+    console.log(did)
     let added = localStorage.getItem("temp_wish")
     let data = JSON.parse(added)
     let cart_remained = data.filter(el => {
