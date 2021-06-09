@@ -2,6 +2,9 @@
 Our team was given a task to Clone the Sugar Cosmetics Website.
 We have used Mock Server for API's which was created in JSON file.
 ---
+
+### [Click here to run Live demo](https://sugarcosmeticss.netlify.app/)
+
 ## Tech stacks used :
 To create this clone following Tech stack is used by contributors.
 * **HTML**
